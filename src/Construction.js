@@ -10,7 +10,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 export default function Construction() {
   return (
     <div className="divcarousel">
-      <AutoplaySlider play={false} cancelOnInteraction={false} interval={12000}>
+      <AutoplaySlider play={true} cancelOnInteraction={false} interval={12000}>
         <div className="slide">
           <img className="slideimg" src={ap} alt=""></img>
           <div className="columnap">

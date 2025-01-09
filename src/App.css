@@ -181,7 +181,7 @@
 }
 
 .titleboard {
-  color: rgb(255, 255, 255);
+  color: rgb(18, 18, 18);
 
 
   width: 450px;
@@ -193,7 +193,7 @@
   letter-spacing: 0.5px;
   font-style: italic;
   font-size: 24px;
-  font-family: Verdana;
+
   
 
 
@@ -403,12 +403,12 @@ font-family: Verdana;
 
   width: 320px;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(18, 18, 18);
   font-size: 15px;
   font-style: italic;
   font-weight: 200;
   letter-spacing: 0.5px;
-  padding-top:0.6rem;
+  
 
 }
 
