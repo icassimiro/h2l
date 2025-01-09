@@ -19,7 +19,7 @@ export default function Background() {
           <h2 className="titlebackground">Soluções habitacionais que combinam conforto, sustentabilidade e design!<hr className="hrr"></hr></h2>
         </div>
         <div className="divsubtitle">
-          <h3 className="subtitle">Nosso compromisso é transformar terrenos em lares, construindo espaços que proporcionem qualidade de vida, segurança e conforto. Cada projeto é desenvolvido com excelência e tecnologia. Construímos mais do que habitações, construímos sonhos.</h3>
+          <h3 className="subtitle">Nosso compromisso é <strong className="s">transformar</strong> terrenos em lares, construindo espaços que proporcionem qualidade de vida, segurança e conforto. Cada projeto é desenvolvido com <strong className="s">excelência</strong> e tecnologia. Construímos mais do que <strong className="s">habitações</strong>, construímos sonhos.</h3>
         </div>
         
       

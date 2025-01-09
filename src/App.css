@@ -140,7 +140,7 @@
   height: 60vh;
   position: absolute;
 
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(2, 2, 2, 0.8);
   display: flex;
 
   justify-content: center;
@@ -234,7 +234,7 @@
 .imgicon1 {
   width: 70px;
   animation: initialimg 4s infinite;
-  padding-top:2rem;
+  padding-top:1rem;
 }
 
 
@@ -391,12 +391,12 @@ font-family: Verdana;
 }
 
 .menubars {
-  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: 100%;
+
 }
 
 .subboards {
@@ -470,26 +470,7 @@ nav.awssld__bullets {
 
 }
 
-.divhr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 0vh;
-  width: 100%;
-}
 
-.hr {
-  width: 955px;
-  height: 0vh;
-
-
-  margin-top: 5rem;
-  background-color: grey;
-
-
-
-
-}
 
 
 
@@ -669,6 +650,7 @@ flex-direction: column;
   .logo{
     width: 272px;
   }
+
   .videodiv{
     width: 100%;
   }
