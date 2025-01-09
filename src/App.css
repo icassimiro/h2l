@@ -660,8 +660,14 @@ flex-direction: column;
 }
 @media screen and (max-width: 500px){
   .divtextbackground{
-    width: 300px;
+    width: 310px;
+    margin-left:1rem;
+    margin-top:5.5rem;
+    height: 70vh;
 
+  }
+  .logo{
+    width: 272px;
   }
   .videodiv{
     width: 100%;
@@ -671,9 +677,18 @@ flex-direction: column;
   }
   .titlebackground{
     width: 250px;
+    line-height: 4vh;
   }
   .subtitle{
     width: 250px;
+  }
+  .columnap{
+    position: absolute;
+    height: 100vh;
+    padding-top:0.5rem;
+  
+    
+   
   }
   .textboard{
     font-size: 23px;
@@ -700,18 +715,32 @@ flex-direction: column;
   
   
   }
+  .divcarousel{
+    width: 100%;
+  }
   .subboards{
     font-size: 14px;
     width: 280px;
     line-height: 2.5vh;
   }
+ 
   .divinfo{
   
   }
   .slideimg{
 
   }
- 
+  .titleboard{
+    width: 270px;
+  }
+  .slideimg{
+    width: 100%;
+    border-radius: 0px;
+
+  }
+ .divslide{
+  width: 100%;
+ }
   
 
 }
