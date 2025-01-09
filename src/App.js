@@ -8,6 +8,7 @@ import Copy from './Copy';
 import Header from './Header';
 import Hr from './Hr';
 import Infos from './Infos';
+import Logo from './Logo';
 import Scroll from './Scroll';
 import Text from './Text';
 import Texthl from './Texthl';
@@ -26,8 +27,10 @@ function App() {
       
 
       <Boardt/>
+      <Logo/>
  
       <Infos/>
+   
    
 
       <Copy/>

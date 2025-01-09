@@ -87,9 +87,10 @@
 
 .subtitle {
   color: whitesmoke;
-  font-size: 17px;
+  font-size: 16px;
+  letter-spacing: 0.7px;
 
-  width: 770px;
+  width: 800px;
   font-weight: 200;
   font-style: italic;
   padding-top: 0.5rem;
@@ -173,10 +174,10 @@
 
 .divboard2 {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   justify-content: center;
   background-color: black;
-  padding-top: 4rem;
+  padding-top: 3rem;
 
 }
 
@@ -210,6 +211,8 @@
   flex-direction: column;
   align-items: center;
   height: 40vh;
+ 
+
 
 
 
@@ -217,7 +220,7 @@
 
 .divboard {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   justify-content: center;
   background-color: black;
 
@@ -286,8 +289,31 @@
 }
 
 .columnap {
-  width: 400px;
+  width: 100%;
 
+}
+.iconsection{
+  width: 30px;
+  background-color: black;
+}
+.divlogos{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.iconsection{
+  
+  width: 150px;
+  padding-top:6rem; animation: flip 2s alternate infinite ease-in-out;
+}
+@keyframes flip {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
 }
 
 .projeto {
@@ -314,6 +340,7 @@
   line-height: 2.7vh;
   letter-spacing: 0.2px;
   padding-top:0.5rem;
+  width: 230px;
 }
 
 
@@ -408,6 +435,7 @@ font-family: Verdana;
   font-style: italic;
   font-weight: 200;
   letter-spacing: 0.5px;
+  line-height: 3.2vh;
   
 
 }
@@ -478,7 +506,7 @@ nav.awssld__bullets {
 .infoiconi {
   color: whitesmoke;
   font-size: 36px;
-  padding-top: 0.05rem;
+
   cursor: pointer;
 
 
@@ -616,6 +644,7 @@ flex-direction: column;
   .infogap{
     flex-direction: column;
     display: inline;
+
   
   }
   .divbtns{
@@ -690,7 +719,7 @@ flex-direction: column;
     line-height: 2.3vh;
   }
   .boards{
-    width: 350px;
+    width: 310px;
     height: 30vh;
     
   }
@@ -706,8 +735,8 @@ flex-direction: column;
   }
   .subboards{
     font-size: 14px;
-    width: 280px;
-    line-height: 2.5vh;
+    width: 230px;
+    line-height: 2.7vh;
   }
  
   .divinfo{
@@ -741,6 +770,33 @@ flex-direction: column;
   .fullboard{
     padding-top:3rem;
   }
+  .divboard {
+
+    gap: 2rem;
+   
+  
+  }
+  .divboard2 {
+
+    gap: 2rem;
+    padding-top:2rem;
+   
+  
+  }
+  .divbtns{
+    padding-top:1rem;
+  }
+  .divbtn{
+    padding-top:1rem;
+  }
+  .infoiconi{
+  font-size: 44px;
+  }
+  .infoiconl{
+    font-size: 45px;
+  
+    }
+ 
 
 }
 @media screen and (max-width: 420px){
@@ -748,5 +804,8 @@ flex-direction: column;
    
 
   }
+.boards{
+  width: 320px;
+}
 
 }
