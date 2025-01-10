@@ -11,6 +11,7 @@
   width: 100%;
   height: 100%;
   margin-bottom: -0.5rem;
+
   background-color: black;
 
 }
@@ -35,6 +36,15 @@
 }
 
 @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -145,7 +155,7 @@
   height: 60vh;
   position: absolute;
 
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: red;
   display: flex;
   opacity: 0.7;
 
@@ -155,7 +165,7 @@
 
 
   color: #fff;
-  z-index: 999;
+  z-index: 1;
   align-items: center;
 
   padding-left: 4rem;
@@ -168,7 +178,7 @@
   width: 400px;
   height: 70vh;
   border-radius: 14px;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .slide {
@@ -209,7 +219,7 @@
 }
 
 .boards {
-  background-color: #181818;
+  background-color: #0f0f0f;
   border-radius: 16px;
   display: flex;
   justify-content: center;
@@ -240,9 +250,9 @@
 
 
 .imgicon1 {
-  width: 70px;
+  width: 60px;
   animation: initialimg 4s infinite;
-  padding-top:1rem;
+
 }
 
 
@@ -295,6 +305,12 @@
 
 .columnap {
   width: 100%;
+ height: 100%;
+
+  
+
+ 
+
 
 }
 .iconsection{
@@ -323,7 +339,7 @@
 
 .projeto {
   color: whitesmoke;
-  background-color: rgb(21, 21, 21);
+  background-color: #0f0f0f;
   
   border: none;
   width: 240px;
@@ -331,11 +347,19 @@
   font-style: italic;
   border-radius: 6px;
   font-weight: 600;
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   height: 7vh;
   letter-spacing: 0.5px;
   font-family: Verdana;
+
 }
+.awssld__container figure,
+.awssld__content,
+.awssld__box {
+  animation: none;
+  background-color: black;
+}
+
 
 .subtitleap {
   color: whitesmoke;
@@ -377,6 +401,7 @@
 
 nav {
   background-color: black;
+  z-index: 2;
  
 }
 
@@ -428,7 +453,17 @@ font-family: Verdana;
   align-items: center;
 
   width: 100%;
+  background-color: black;
+  height: 10vh;
 
+}
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: black;
+  animation: fadeIn 2s;
+  transition: 3s;
 }
 
 .subboards {
@@ -687,6 +722,7 @@ flex-direction: column;
 
   .videodiv{
     width: 100%;
+    margin-top:-0.1rem;
   }
   .video{
     width: 100%;
@@ -700,10 +736,15 @@ flex-direction: column;
   }
   .columnap{
     position: absolute;
-    height: 100vh;
+    
     padding-top:0.5rem;
-    padding-left: 0.5rem;
-    left: 0;
+    padding-left: 1.5rem;
+
+  
+  
+
+  
+
   
     
    
@@ -817,7 +858,7 @@ flex-direction: column;
   
   padding-left:1rem;
   margin-top:2.5rem;
-  width: 285px;
+  width: 295px;
   line-height: 3.5vh;
 }
 .logo{
@@ -837,7 +878,17 @@ flex-direction: column;
   letter-spacing: 0.2px;
   line-height: 2.3vh;
 }
+
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 350px){
+  .boards{
+    width: 300px;
+  }
+  .textboard{
+    font-size: 20px;
+  }
+  .textboardhl{
+    font-size: 20px;
+  }
 
 }

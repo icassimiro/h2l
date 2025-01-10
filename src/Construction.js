@@ -14,10 +14,13 @@ export default function Construction() {
         <div className="slide">
           <img className="slideimg" src={ap} alt=""></img>
           <div className="columnap">
+          
           <h2 className="titleap">AURORA HEIGHTS<hr className="hrr"></hr></h2>
+          
           <h2 className="subtitleap">Descubra a sofisticação do <strong className="s">Aurora Heights</strong>, onde o horizonte encontra a exclusividade. Localizado na região mais <strong className="s">valorizada</strong> da cidade, este edifício redefine o conceito de <strong className="s">luxo</strong>, com acabamentos premium e áreas de lazer.</h2>
-          <button className="projeto">VISUALIZAR PROJETO</button>
+               <button className="projeto">VISUALIZAR PROJETO</button>
           </div>
+          
         </div>
         <div className="slide">
           <img className="slideimg" src={ap1} alt=""></img>
