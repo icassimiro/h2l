@@ -155,7 +155,7 @@
   height: 60vh;
   position: absolute;
 
-  background-color: red;
+  background-color: rgb(1, 1, 1, 0.8);
   display: flex;
   opacity: 0.7;
 
