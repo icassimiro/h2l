@@ -1,4 +1,4 @@
-import icon from "./Images/icon.png";
+import gold from "./Images/gold.png";
 
 import React, { useState, useEffect, useMemo } from "react";
 
@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <nav className={`${sticky ? "sticky" : ""}`}>
       <div className="menubars">
-        <img className="imgicon1" src={icon}></img>
+        <img className="imgicon1" src={gold}></img>
         
         
       </div>

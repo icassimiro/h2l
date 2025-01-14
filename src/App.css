@@ -12,7 +12,7 @@
   height: 100%;
   margin-bottom: -0.5rem;
 
-  background-color: black;
+  background-color:#040404;
 
 }
 
@@ -21,12 +21,12 @@
   bottom: 20px;
   right: 20px;
   font-size: 40px;
-  background: black;
-  color: white;
+ background-color:#303841;
+ color:#C1A663;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 9px;
   border: none;
-  box-shadow: 0 0px 8px #ffffff;
+  box-shadow: 0 0px 14px #C1A663;
   display: flex;
   align-items: center;
 
@@ -45,14 +45,19 @@
   }
 }
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.8
   }
 
   100% {
     opacity: 1;
   }
 }
+
+
 
 .divlogo {
   width: 100%;
@@ -73,8 +78,8 @@
 }
 
 .titlebackground {
-  color: white;
-  font-size: 38.5px;
+  color:#C1A663;
+  font-size: 45px;
 
   width: 900px;
   font-weight: 600;
@@ -101,8 +106,8 @@
 
 .subtitle {
   color: whitesmoke;
-  font-size: 16px;
-  letter-spacing: 0.7px;
+  font-size: 19px;
+  letter-spacing: 0.8px;
 
   width: 800px;
   font-weight: 200;
@@ -174,17 +179,22 @@
 
 }
 
+
 .slideimg {
-  width: 400px;
+  width: 500px;
   height: 70vh;
   border-radius: 14px;
+  opacity: 0.8;
 
 }
+
 
 .slide {
   display: flex;
   align-items: center;
   gap: 3rem;
+
+
 }
 
 .divboard2 {
@@ -197,7 +207,10 @@
 }
 
 .titleboard {
-  color:whitesmoke;
+
+
+
+ color:#C1A663;
 
 
   width: 450px;
@@ -209,6 +222,8 @@
   letter-spacing: 0.5px;
   font-style: italic;
   font-size: 24px;
+  font-family: verdana;
+  font-weight: 700;
 
   
 
@@ -219,13 +234,14 @@
 }
 
 .boards {
-  background-color: #0f0f0f;
+  background-color: #303841;
   border-radius: 16px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   height: 40vh;
+  gap:0.4rem;
  
 
 
@@ -237,16 +253,13 @@
   display: flex;
   gap: 3rem;
   justify-content: center;
-  background-color: black;
+  background-color: #040404;
+padding-top:3rem;
 
 }
 
 
-.awssld {
-  height: 80vh;  
 
-
-}
 
 
 .imgicon1 {
@@ -308,6 +321,7 @@
  height: 100%;
 
 
+
 }
 
 .iconsection{
@@ -328,15 +342,23 @@
 @keyframes flip {
   0% {
     transform: rotateY(0);
+   
   }
   100% {
     transform: rotateY(180deg);
+    
   }
+}
+.awssld {
+  height: 90vh;
+
+
 }
 
 .projeto {
-  color: whitesmoke;
-  background-color: #0f0f0f;
+ color:#C1A663;
+ background-color: #303841;
+
   
   border: none;
   width: 240px;
@@ -351,11 +373,14 @@
   animation: none;
 
 }
+
 .awssld__container figure,
 .awssld__content,
 .awssld__box {
   animation: none;
   background-color: black;
+ 
+
 }
 
 
@@ -403,13 +428,20 @@ nav {
  
 }
 
+
 .divboardtitle {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #040404;
 }
 .hrr{
   width: 45px;
+  
+  background-color:#C1A663;
+
+  height: 0.2vh;
+  border: none;
+  
   
 }
 .divbtnwpp{
@@ -417,8 +449,9 @@ nav {
 }
 
 .textboard {
-  color: whitesmoke;
-  padding-top: 6rem;
+  color: #C1A663;
+  padding-top: 4.5rem;
+  padding-bottom:1rem;
   font-size: 38.5px;
   font-style: italic;
   font-weight: 700;
@@ -430,8 +463,8 @@ font-family: Verdana;
 
 
 .textboardhl {
-  color: whitesmoke;
-  padding-top: 3.5rem;
+  color: #C1A663;
+  padding-top: 0rem;
   font-size: 38px;
   font-style: italic;
   font-weight: 700;
@@ -440,10 +473,6 @@ font-family: Verdana;
 
 }
 
-.fullboard {
-  padding-top: 2rem;
-  background-color: black;
-}
 
 .menubars {
   display: flex;
@@ -451,29 +480,34 @@ font-family: Verdana;
   align-items: center;
 
   width: 100%;
-  background-color: black;
+  background-color: #040404;
   height: 10vh;
 
 }
+
 .sticky {
   position: sticky;
   top: 0px;
   z-index: 100;
-  background-color: black;
-  animation: fadeIn 2s;
-  transition: 3s;
+  background-color: #040404;
+
+  animation: fadeIn 1.5s;
+  
+  
 }
 
 .subboards {
 
-  width: 320px;
+  width: 330px;
   text-align: center;
-  color: whitesmoke;
-  font-size: 15px;
+
+  font-size: 16px;
   font-style: italic;
   font-weight: 200;
   letter-spacing: 0.5px;
-  line-height: 3.2vh;
+  line-height: 3.6vh;
+  color:#C1A663;
+  
   
 
 }
@@ -488,7 +522,9 @@ nav.awssld__bullets {
 }
 
 .awssld__content {
-  --content-background-color: black;  
+  --content-background-color: #040404;
+ 
+
 
 
 
@@ -498,6 +534,7 @@ nav.awssld__bullets {
 .divcarousel {
   width: 100%;
   height: 100%;
+  
 
 
 }
@@ -508,6 +545,7 @@ nav.awssld__bullets {
   0% {
     opacity: 0;
   }
+  
 
   100% {
     opacity: 1;
@@ -623,11 +661,15 @@ nav.awssld__bullets {
 
   .slide {
     flex-direction: column;
+    gap:1rem;
+   
+
+   
 
   }
-
+  
   .awssld {
-    height: 115vh;
+    height: 140vh
 
 
   }
@@ -806,19 +848,11 @@ flex-direction: column;
 
   }
 
- .divslide{
 
-  
-
-
-
-}
 .awssld{
   height: 80vh;
 }
-  .fullboard{
-    padding-top:3rem;
-  }
+
   .divboard {
 
     gap: 2rem;

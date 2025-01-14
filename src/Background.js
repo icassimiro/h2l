@@ -1,6 +1,6 @@
 
 import City from "./Images/City.mp4";
-import whitelogo from "./Images/whitelogo.png";
+import goldlogo from "./Images/goldlogo.png";
 
 
 
@@ -13,13 +13,13 @@ export default function Background() {
       <div className="divtextbackground">
 
         <div className="divlogo">
-          <img className="logo" src={whitelogo}></img>
+          <img className="logo" src={goldlogo}></img>
         </div>
         <div className="divtitle">
-          <h2 className="titlebackground">Soluções habitacionais que combinam conforto, sustentabilidade e design!<hr className="hrr"></hr></h2>
+          <h2 className="titlebackground">Construir estruturas sólidas e relacionamentos duradouros!<hr className="hrr"></hr></h2>
         </div>
         <div className="divsubtitle">
-          <h3 className="subtitle">Nosso compromisso é <strong className="s">transformar</strong> terrenos em lares, construindo espaços que proporcionem qualidade de vida, segurança e conforto. Cada projeto é desenvolvido com <strong className="s">excelência</strong> e tecnologia. Construímos mais do que <strong className="s">habitações</strong>, construímos sonhos.</h3>
+          <h3 className="subtitle">H2L engenharia é uma empresa focada na excelência técnica, operacional, inovação e compromisso com a satisfação de seus clientes, investidores e colaboradores.</h3>
         </div>
         
       
