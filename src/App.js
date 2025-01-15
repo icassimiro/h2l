@@ -5,6 +5,8 @@ import Board from './Board';
 import Boardt from './Boardt';
 import Construction from './Construction';
 import Copy from './Copy';
+import Habitacional from './Habitacional';
+import Habtext from './Habtext';
 import Header from './Header';
 import Hr from './Hr';
 import Infos from './Infos';
@@ -17,24 +19,26 @@ import Texthl from './Texthl';
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
 
       <Background />
-     <Text/>
+      <Habitacional />
+      <Habtext/>
+      <Text />
       <Construction />
-      <Texthl/>
-      <Board/>
-      
+      <Texthl />
+      <Board />
 
-      <Boardt/>
-      <Logo/>
- 
-      <Infos/>
-   
-   
 
-      <Copy/>
-      <Scroll/>
+      <Boardt />
+      <Logo />
+
+      <Infos />
+
+
+
+      <Copy />
+      <Scroll />
 
     </div>
   );

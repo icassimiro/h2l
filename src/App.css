@@ -16,6 +16,7 @@
 
 }
 
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -73,6 +74,17 @@
   filter: brightness(45%);
   height: 90vh;
   background-color: black;
+
+
+}
+.awssld__timer--run {
+  margin-top:1rem;
+ 
+  background-color: #040404;
+
+}
+.awssld {
+  height: 83vh
 
 
 }
@@ -254,7 +266,8 @@
   gap: 3rem;
   justify-content: center;
   background-color: #040404;
-padding-top:3rem;
+  padding-top:2rem;
+
 
 }
 
@@ -324,9 +337,23 @@ padding-top:3rem;
 
 }
 
-.iconsection{
-  width: 30px;
-  background-color: black;
+.iconsection1{
+  width: 90px;
+  
+
+animation: flip 2s alternate infinite ease-in-out;
+
+
+}
+.texthab{
+  
+  text-align: center;
+  width: 600px;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 4.7vh;
+  padding-top:1.5rem;
+  color: #C1A663; ;
 }
 .divlogos{
   background-color: #040404;
@@ -335,6 +362,7 @@ padding-top:3rem;
   justify-content: center;
 }
 .iconsection{
+
   
   width: 150px;
   padding-top:6rem; animation: flip 2s alternate infinite ease-in-out;
@@ -348,11 +376,6 @@ padding-top:3rem;
     transform: rotateY(180deg);
     
   }
-}
-.awssld {
-  height: 90vh;
-
-
 }
 
 .projeto {
@@ -433,6 +456,8 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
+  padding-top: 4.5rem;
+
 }
 .hrr{
   width: 45px;
@@ -450,8 +475,7 @@ nav {
 
 .textboard {
   color: #C1A663;
-  padding-top: 4.5rem;
-  padding-bottom:1rem;
+
   font-size: 38.5px;
   font-style: italic;
   font-weight: 700;
@@ -464,13 +488,75 @@ font-family: Verdana;
 
 .textboardhl {
   color: #C1A663;
-  padding-top: 0rem;
+
   font-size: 38px;
   font-style: italic;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: Verdana;
 
+}
+.divhabitacional{
+  background-color: #040404;
+  display: flex;
+  justify-content: center;
+
+
+  background-color:#040404;
+  height: 100%;
+  align-items: center;
+  padding-top:2rem;
+
+
+}
+.divhab1{
+  color: whitesmoke;
+  background-color:#303841;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+ 
+  
+height:70vh;
+border-radius: 32px;
+
+  
+
+}
+.obrasvideo{
+
+
+
+ width: 50%;
+
+ 
+
+
+
+}
+.divhab2{
+  color: whitesmoke;
+  width: 50%;
+  height: 100%;
+
+ 
+  
+}
+.textboardhab {
+  color: #C1A663;
+
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: Verdana;
+
+}
+.divsubhab{
+  width: 100%;
 }
 
 
@@ -534,7 +620,9 @@ nav.awssld__bullets {
 .divcarousel {
   width: 100%;
   height: 100%;
+
   
+
 
 
 }
@@ -706,6 +794,20 @@ flex-direction: column;
   .subtitle{
     width:420px;
   }
+  .divhab1{
+    
+    width: 550px;
+    height: 95vh;
+  
+    
+   }
+   .texthab{
+    width: 400px;
+   }
+
+
+
+
 }
 @media screen and (max-width: 700px){
   .textboard{
