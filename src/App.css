@@ -88,8 +88,8 @@
 
 }
 .awssld {
-  height: 75vh
-
+  height: 90vh;
+ 
 
 }
 
@@ -122,13 +122,14 @@
 
 .subtitle {
   color: whitesmoke;
-  font-size: 19px;
-  letter-spacing: 0.8px;
+  font-size: 19.5px;
+  letter-spacing: 0.5px;
 
   width: 800px;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   padding-top: 0.5rem;
+  line-height: 3.6vh;
 
 }
 
@@ -176,7 +177,7 @@
   height: 60vh;
   position: absolute;
 
-  background-color: rgb(1, 1, 1, 0.8);
+
   display: flex;
   opacity: 0.9;
 
@@ -194,13 +195,17 @@
   margin-top: 10rem;
 
 }
+.divcarouselm{
+  display: none;
+}
 
 
 .slideimg {
-  width: 850px;
-  height: 65vh;
+
+  height: 50vh;
 
   border-radius: 20px;
+  opacity: 0.8;
 
 
 }
@@ -208,8 +213,12 @@
 
 .slide {
   display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100%;
  
-  gap: 3rem;
+  gap: 1rem;
 
 
 
@@ -327,7 +336,7 @@
   font-family: Verdana;
 }
 .titleap {
-  color: whitesmoke;
+  color: #C1A663; 
   font-size: 24px;
   font-style: italic;
   font-weight: 700;
@@ -335,23 +344,7 @@
   font-family: Verdana;
 }
 
-.columnap {
-  width: 100%;
 
- position: absolute;
- padding-top:0.7rem;
- padding-left:1rem;
- 
-
-
-
-
- 
-
-
-
-
-}
 
 .iconsection1{
   width: 90px;
@@ -369,7 +362,9 @@ animation: flip 2s alternate infinite ease-in-out;
   font-style: italic;
   line-height: 4.7vh;
   padding-top:1.5rem;
-  color: #C1A663; ;
+  color: whitesmoke;
+letter-spacing: 0.5px;
+font-size:17px;
 }
 .divlogos{
   background-color: #040404;
@@ -396,7 +391,7 @@ animation: flip 2s alternate infinite ease-in-out;
 
 .projeto {
  color:#C1A663;
- background: linear-gradient(#080809,#303841);
+ background: linear-gradient(#303841,#080809);
 
   
   border: none;
@@ -418,20 +413,38 @@ animation: flip 2s alternate infinite ease-in-out;
 .awssld__box {
   animation: none;
   background-color: black;
+
  
+
+}
+.awssld__container {
+  width: 100%;  
+
+  
+
+
 
 }
 
 
 .subtitleap {
   color: whitesmoke;
-  font-size: 15px;
+
   font-weight: 200;
   font-style: italic;
-  line-height: 2.7vh;
-  letter-spacing: 0.2px;
+  line-height: 3.6vh;
+  letter-spacing: 0.5px;
   padding-top:0.5rem;
-  width: 240px;
+  width: 600px;
+  text-align: center;
+  font-size:17px;
+}
+.columnap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
 }
 
 
@@ -472,7 +485,17 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-  padding-top: 4.5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 1rem;
+  align-items: center;
+
+}
+
+.divboardtitle2 {
+  display: flex;
+  justify-content: center;
+  background-color: #040404;
+  padding-top: 3.5rem;
   padding-bottom: 1rem;
   align-items: center;
 
@@ -525,7 +548,7 @@ font-family: Verdana;
 
 }
 .divhabitacional{
-  background-color: #040404;
+
   display: flex;
   justify-content: center;
 
@@ -612,7 +635,7 @@ border-radius: 36px;
   font-weight: 200;
   letter-spacing: 0.5px;
   line-height: 3.6vh;
-  color:#C1A663;
+  color:whitesmoke;
   
   
 
@@ -628,7 +651,7 @@ nav.awssld__bullets {
 }
 
 .awssld__content {
-  --content-background-color: #040404;
+  --content-background-color:#040404;
  
 
 
@@ -639,9 +662,11 @@ nav.awssld__bullets {
 
 .divcarousel {
   width: 100%;
-  height: 100%;
+  height: 100%
 
-  
+
+
+
 
 
 
@@ -767,7 +792,7 @@ nav.awssld__bullets {
 
   .subtitle {
     width: 570px;
-    font-size: 15px;
+ 
   }
 
   .slide {
@@ -831,6 +856,14 @@ flex-direction: column;
   
 
 
+
+
+}
+
+@media screen and (max-width: 800px){
+  .subtitleap{
+    width: 450px;
+  }
 
 
 }
@@ -933,24 +966,30 @@ flex-direction: column;
   }
   .subtitle{
     width: 250px;
-  }
-  .columnap{
-    position: absolute;
-    
-    top:0;
-    left:0;
+    line-height: 2.8vh;
 
   }
+ 
   .divhab1{
   width: 360px;
-  height: 68vh;
+  height: 75vh;
 
   }
   .texthab{
     width: 280px;
-    font-size:17px;
+    font-size:16px;
     line-height: 2.9vh;
 
+  }
+  .awssld__content {
+    --content-background-color:#040404;
+
+   
+  
+  
+  
+  
+  
   }
   .textboard{
     font-size: 23px;
@@ -958,35 +997,38 @@ flex-direction: column;
   .textboardhl{
     font-size: 23px;
   }
-  .slide{gap:1.5rem;
+  .slide{
     width: 100%;
+  justify-content: center;
+    
+    
   }
 
   .subtitleap{
-    font-size: 14px;
+    font-size: 16px;
     width: 280px;
     letter-spacing: 0.2px;
-    line-height: 2.3vh;
+    line-height: 2.5vh;
   }
   .boards{
     width: 310px;
     height: 32vh;
     
   }
-  .awssld__container {
-    width: 100%;  
-    
-
-  
-  
-  }
+ 
   .divcarousel{
+ display: none;
+  }
+  .divcarouselm{
     width: 100%;
+    display: flex;
+
   }
   .subboards{
-    font-size: 14px;
-    width: 210px;
-    line-height: 2.5vh;
+    font-size: 15px;
+    width: 230px;
+    line-height: 2.5vh; 
+ 
   }
  
   .divinfo{
@@ -999,13 +1041,16 @@ flex-direction: column;
   .slideimg{
     width: 100%;
     border-radius: 0px;
+    height: 70vh;
 
   }
  
 
 
 .awssld{
-  height: 100%;
+  height: 115vh;
+
+
 }
 
   .divboard {
@@ -1074,6 +1119,15 @@ flex-direction: column;
 .titlebackground{
   width: 240px;
 }
+.subtitleap{
+  line-height: 3vh;
+}
+.awssld{
+  height: 125vh;
+
+
+}
+
 
 
 }
