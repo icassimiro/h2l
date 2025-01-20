@@ -22,7 +22,7 @@
   bottom: 20px;
   right: 20px;
   font-size: 40px;
- background-color:#303841;
+ background-color:#080809;
  color:#C1A663;
   cursor: pointer;
   border-radius: 9px;
@@ -79,19 +79,8 @@
 
 
 }
-.awssld__timer--run {
 
 
- 
-
-
-
-}
-.awssld {
-  height: 90vh;
- 
-
-}
 
 .titlebackground {
   color:#C1A663;
@@ -197,6 +186,7 @@
 }
 .divcarouselm{
   display: none;
+  
 }
 
 
@@ -206,6 +196,7 @@
 
   border-radius: 20px;
   opacity: 0.8;
+  padding-top:2rem;
 
 
 }
@@ -216,9 +207,11 @@
   flex-direction: column;
 
   align-items: center;
-  height: 100%;
+
  
-  gap: 1rem;
+
+
+
 
 
 
@@ -391,7 +384,7 @@ font-size:17px;
 
 .projeto {
  color:#C1A663;
- background: linear-gradient(#303841,#080809);
+ background: linear-gradient(#080809,#303841);
 
   
   border: none;
@@ -414,16 +407,12 @@ font-size:17px;
   animation: none;
   background-color: black;
 
+
  
 
 }
-.awssld__container {
-  width: 100%;  
-
-  
-
-
-
+.awssld{
+  height: 100vh;
 }
 
 
@@ -485,7 +474,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-  padding-top: 5.5rem;
+  padding-top: 7rem;
   padding-bottom: 1rem;
   align-items: center;
 
@@ -495,7 +484,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-  padding-top: 3.5rem;
+  padding-top: 6.5rem;
   padding-bottom: 1rem;
   align-items: center;
 
@@ -557,6 +546,7 @@ font-family: Verdana;
   height: 100%;
   align-items: center;
   padding-top:2rem;
+  padding-bottom:6rem;
 
 
 }
@@ -646,12 +636,15 @@ border-radius: 36px;
 }
 
 
+
 nav.awssld__bullets {
   display: none;
 }
 
+
 .awssld__content {
   --content-background-color:#040404;
+
  
 
 
@@ -660,17 +653,6 @@ nav.awssld__bullets {
 
 }
 
-.divcarousel {
-  width: 100%;
-  height: 100%
-
-
-
-
-
-
-
-}
 
 
 
@@ -816,11 +798,7 @@ flex-direction: column;
 
  
   }
-  .infogap{
-  
-
-   
-  }
+ 
 
 
 }
@@ -861,9 +839,7 @@ flex-direction: column;
 }
 
 @media screen and (max-width: 800px){
-  .subtitleap{
-    width: 450px;
-  }
+  
 
 
 }
@@ -944,6 +920,7 @@ flex-direction: column;
    
 
   }
+  
   .logo{
     width: 272px;
   }
@@ -981,28 +958,16 @@ flex-direction: column;
     line-height: 2.9vh;
 
   }
-  .awssld__content {
-    --content-background-color:#040404;
 
-   
   
-  
-  
-  
-  
-  }
+ 
   .textboard{
     font-size: 23px;
   }
   .textboardhl{
     font-size: 23px;
   }
-  .slide{
-    width: 100%;
-  justify-content: center;
-    
-    
-  }
+
 
   .subtitleap{
     font-size: 16px;
@@ -1020,10 +985,15 @@ flex-direction: column;
  display: none;
   }
   .divcarouselm{
-    width: 100%;
+ 
     display: flex;
 
+
+
   }
+.divfull{
+  height: 100%;
+}
   .subboards{
     font-size: 15px;
     width: 230px;
@@ -1041,14 +1011,15 @@ flex-direction: column;
   .slideimg{
     width: 100%;
     border-radius: 0px;
-    height: 70vh;
+    height: 100%;
 
   }
  
 
 
 .awssld{
-  height: 115vh;
+  height: 135vh;
+
 
 
 }
@@ -1126,6 +1097,9 @@ flex-direction: column;
   height: 125vh;
 
 
+}
+.divhab1{
+  height: 85vh;
 }
 
 

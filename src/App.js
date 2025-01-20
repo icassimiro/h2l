@@ -8,11 +8,11 @@ import Copy from './Copy';
 import Habitacional from './Habitacional';
 import Habtext from './Habtext';
 import Header from './Header';
-import Hr from './Hr';
+
 import Infos from './Infos';
 import Logo from './Logo';
 import Scroll from './Scroll';
-import Text from './Text';
+
 import Texthl from './Texthl';
 
 
@@ -24,7 +24,7 @@ function App() {
       <Background />
       <Habitacional />
       <Habtext/>
-      <Text />
+
       <Construction />
       <Texthl />
       <Board />
