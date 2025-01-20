@@ -1057,7 +1057,7 @@ flex-direction: column;
  
 
 .boards{
-  width: 320px;
+  width: 300px;
   height: 40vh;
 }
 .subboards{
@@ -1111,7 +1111,7 @@ flex-direction: column;
 
 @media screen and (max-width: 350px){
   .boards{
-    width: 300px;
+    width: 280px;
   }
   .textboard{
     font-size: 20px;
