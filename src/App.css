@@ -12,6 +12,7 @@
   height: 100%;
   margin-bottom: -0.5rem;
 
+
   
 
 }
@@ -205,8 +206,10 @@
 .slide {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   align-items: center;
+  height: 100%;
 
  
 
@@ -413,6 +416,7 @@ font-size:17px;
 }
 .awssld{
   height: 100vh;
+  
 }
 
 
@@ -427,6 +431,7 @@ font-size:17px;
   width: 600px;
   text-align: center;
   font-size:17px;
+
 }
 .columnap{
   display: flex;
@@ -484,7 +489,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-  padding-top: 6.5rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
   align-items: center;
 
@@ -644,6 +649,7 @@ nav.awssld__bullets {
 
 .awssld__content {
   --content-background-color:#040404;
+  
 
  
 
@@ -920,6 +926,10 @@ flex-direction: column;
    
 
   }
+  .awssld{
+    height:130vh;
+  
+  }
   
   .logo{
     width: 272px;
@@ -958,6 +968,9 @@ flex-direction: column;
     line-height: 2.9vh;
 
   }
+  .slide{
+  
+  }
 
   
  
@@ -980,6 +993,13 @@ flex-direction: column;
     height: 32vh;
     
   }
+  .divhabitacional{
+    padding-top:0.5rem;
+    padding-bottom:3.5rem;
+  }
+  .divboard{
+    padding-top:0.5rem;
+  }
  
   .divcarousel{
  display: none;
@@ -987,13 +1007,13 @@ flex-direction: column;
   .divcarouselm{
  
     display: flex;
+  
+
 
 
 
   }
-.divfull{
-  height: 100%;
-}
+
   .subboards{
     font-size: 15px;
     width: 230px;
@@ -1011,18 +1031,15 @@ flex-direction: column;
   .slideimg{
     width: 100%;
     border-radius: 0px;
-    height: 100%;
+   
+    padding-top:0;
+    height: 70vh;
 
   }
  
 
 
-.awssld{
-  height: 135vh;
 
-
-
-}
 
   .divboard {
 
@@ -1050,6 +1067,9 @@ flex-direction: column;
     font-size: 45px;
   
     }
+    .divboardtitle2{
+  padding-top:4.5rem;
+    }
  
 
 }
@@ -1076,8 +1096,8 @@ flex-direction: column;
   
 }
 .divhab1{
-  height: 73vh;
-  width: 320px;
+  height: 70vh;
+  width: 300px;
 }
 .texthab{
   line-height: 3.2vh;
@@ -1093,13 +1113,12 @@ flex-direction: column;
 .subtitleap{
   line-height: 3vh;
 }
-.awssld{
-  height: 125vh;
 
-
-}
 .divhab1{
   height: 85vh;
+}
+.awssld{
+  height: 140vh;
 }
 
 
