@@ -262,7 +262,7 @@
   gap: 3rem;
   justify-content: center;
   background-color: #040404;
-  padding-top:2rem;
+  padding-top:3rem;
 
 
 }
@@ -1015,9 +1015,7 @@ flex-direction: column;
     padding-top:0.5rem;
  
   }
-  .divboard{
-    padding-top:0.5rem;
-  }
+  
  
 
   
@@ -1052,6 +1050,7 @@ flex-direction: column;
   .divboard {
 
     gap: 2rem;
+    padding-top:2rem;
    
   
   }

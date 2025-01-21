@@ -25,7 +25,7 @@ function App() {
       <Habitacional />
       
       <Habtext/>
-      <Texthl />
+     
       <Board />
 
 
