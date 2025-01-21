@@ -9,7 +9,7 @@
 
 .videodiv {
   width: 100%;
-  height: 100%;
+  height: 110vh;
   margin-bottom: -0.5rem;
 
 
@@ -49,10 +49,7 @@
 
 
 
-.divlogo {
-  width: 100%;
 
-}
 
 @keyframes fadeIn {
   0% {
@@ -74,8 +71,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  filter: brightness(45%);
-  height: 90vh;
+  filter: brightness(50%);
+  height: 100%;
   background-color: black;
 
 
@@ -85,47 +82,29 @@
 
 .titlebackground {
   color:#C1A663;
-  font-size: 45px;
+  font-size: 47px;
 
   width: 900px;
-  font-weight: 600;
+  font-weight: 800;
 
   line-height: 7vh;
   letter-spacing: 0.5px;
   font-style: italic;
   font-family:'Verdana';
   animation: none;
+
 }
 
 .divtitle {
   width: 100%;
-  padding-top: 0.8rem;
+  height: 100%;
 
 
 }
 
-.divsubtitle {
-  width: 100%;
 
 
-}
 
-.subtitle {
-  color: whitesmoke;
-  font-size: 19.5px;
-  letter-spacing: 0.5px;
-
-  width: 800px;
-  font-weight: 300;
-  font-style: italic;
-  padding-top: 0.5rem;
-  line-height: 3.6vh;
-
-}
-
-.logo {
-  width: 280px;
-}
 
 .fulltextdiv {
   display: flex;
@@ -164,36 +143,37 @@
 .divtextbackground {
 
   width: 910px;
-  height: 60vh;
+
   position: absolute;
 
 
   display: flex;
   opacity: 0.9;
+  align-items: center;
+
 
   justify-content: center;
   flex-direction: column;
   border-radius: 14px;
+  padding-left:3rem;
+  padding-top:3rem;
 
 
   color: #fff;
   z-index: 1;
   align-items: center;
 
-  padding-left: 4rem;
-  margin-left: 3rem;
-  margin-top: 10rem;
+ 
+
+  
 
 }
-.divcarouselm{
-  display: none;
-  
-}
+
 
 
 .slideimg {
 
-  height: 50vh;
+  height: 60vh;
 
   border-radius: 20px;
   opacity: 0.8;
@@ -205,11 +185,12 @@
 
 .slide {
   display: flex;
-  flex-direction: column;
+  
   justify-content: center;
 
   align-items: center;
   height: 100%;
+  flex-direction: column;
 
  
 
@@ -218,6 +199,10 @@
 
 
 
+}
+.carouselflex{
+  display: flex;
+  gap:2rem;
 }
 
 .divboard2 {
@@ -287,8 +272,15 @@
 
 
 .imgicon1 {
+  width: 50px;
+  animation: initialimg 4s infinite;
+  padding-left:1.5rem;
+
+}
+.imgicon2 {
   width: 60px;
   animation: initialimg 4s infinite;
+  padding-right:1.5rem;
 
 }
 
@@ -425,17 +417,18 @@ font-size:17px;
 
   font-weight: 200;
   font-style: italic;
-  line-height: 3.6vh;
+  line-height: 3.5vh;
   letter-spacing: 0.5px;
-  padding-top:0.5rem;
-  width: 600px;
-  text-align: center;
-  font-size:17px;
+  padding-top:0.3rem;
+  width: 500px;
+
+  font-size:16px;
 
 }
 .columnap{
   display: flex;
-  align-items: center;
+  
+
   justify-content: center;
   width: 100%;
   flex-direction: column;
@@ -501,6 +494,7 @@ nav {
 
   height: 0.2vh;
   border: none;
+ margin-top:0.1rem;
   
   
 }
@@ -599,12 +593,13 @@ border-radius: 36px;
 
 .menubars {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
 
   width: 100%;
   background-color: #040404;
   height: 10vh;
+
 
 
 }
@@ -648,7 +643,7 @@ nav.awssld__bullets {
 
 
 .awssld__content {
-  --content-background-color:#040404;
+  --content-background-color:red;
   
 
  
@@ -727,6 +722,17 @@ nav.awssld__bullets {
   padding-bottom: 0.2rem;
 
 }
+@media screen and (max-width: 1200px) {
+  .carouselflex{
+  flex-direction: column;
+  gap:1rem;
+  }
+  .awssld{
+    height: 120vh;
+  }
+ 
+
+}
 
 @media screen and (max-width: 1100px) {
   .divboard {
@@ -759,9 +765,6 @@ nav.awssld__bullets {
 
     
   }
-  .slideimg{
-    width:600px
-  }
   
  
 
@@ -778,10 +781,7 @@ nav.awssld__bullets {
     line-height: 6vh;
   }
 
-  .subtitle {
-    width: 570px;
- 
-  }
+
 
   .slide {
     flex-direction: column;
@@ -811,7 +811,7 @@ flex-direction: column;
 @media screen and (max-width: 900px){
   .divtextbackground{
     height: 75vh;
-    margin-top:3rem; 
+   
     width: 550px; 
   }
   .titlebackground{
@@ -819,9 +819,7 @@ flex-direction: column;
     width: 450px;
     line-height: 4.7vh;
   }
-  .subtitle{
-    width:420px;
-  }
+ 
   .divhab1{
     
     width: 550px;
@@ -833,10 +831,7 @@ flex-direction: column;
    .texthab{
     width: 400px;
    }
-   .slideimg{
-    width:400px;
-  }
-  
+ 
   
 
 
@@ -866,7 +861,7 @@ flex-direction: column;
   }
   .divtextbackground{
   width: 470px;
-  padding-left: 2rem;
+
   }
   .infogap{
     flex-direction: column;
@@ -895,14 +890,12 @@ flex-direction: column;
 @media screen and (max-width: 600px){
   .divtextbackground{
     width: 400px;
-    padding-left: 2rem;
+ 
     }
     .titlebackground{
       width: 370px;
     }
-    .subtitle{
-      width: 370px;
-    }
+  
     .textboard{
       font-size: 28px;
     
@@ -918,22 +911,26 @@ flex-direction: column;
 @media screen and (max-width: 500px){
   .divtextbackground{
     width: 310px;
-    margin-left:1rem;
-    margin-top:5.5rem;
-    height: 70vh;
-    opacity: 0.8;
+    height: 0;
+    padding-left:1.2rem;
+    padding-top:1rem;
+
+ 
+   
     
    
 
   }
+
   .awssld{
-    height:130vh;
+    height:105vh;
   
   }
-  
-  .logo{
-    width: 272px;
+  .columnap{
+    align-items: center;
   }
+  
+ 
   .projeto{
     opacity: 0.8;
     width: 280px;
@@ -942,20 +939,20 @@ flex-direction: column;
 
   .videodiv{
     width: 100%;
+    height: 100%;
     margin-top:-0.1rem;
+
   }
   .video{
     width: 100%;
-  }
-  .titlebackground{
-    width: 245px;
-    line-height: 4vh;
-  }
-  .subtitle{
-    width: 250px;
-    line-height: 2.8vh;
 
   }
+  .titlebackground{
+    width: 230px;
+    line-height: 3vh;
+    font-size:21px;
+  }
+ 
  
   .divhab1{
   width: 360px;
@@ -968,9 +965,7 @@ flex-direction: column;
     line-height: 2.9vh;
 
   }
-  .slide{
-  
-  }
+ 
 
   
  
@@ -987,6 +982,7 @@ flex-direction: column;
     width: 280px;
     letter-spacing: 0.2px;
     line-height: 2.5vh;
+    text-align: center;
   }
   .boards{
     width: 310px;
@@ -1001,19 +997,8 @@ flex-direction: column;
     padding-top:0.5rem;
   }
  
-  .divcarousel{
- display: none;
-  }
-  .divcarouselm{
- 
-    display: flex;
+
   
-
-
-
-
-  }
-
   .subboards{
     font-size: 15px;
     width: 230px;
@@ -1031,9 +1016,10 @@ flex-direction: column;
   .slideimg{
     width: 100%;
     border-radius: 0px;
-   
+   height: 100%;
     padding-top:0;
-    height: 70vh;
+
+
 
   }
  
@@ -1083,18 +1069,7 @@ flex-direction: column;
 .subboards{
   line-height: 3vh;
 }
-.divtextbackground{
-  height: 80vh;
-  
-  padding-left:1rem;
-  margin-top:2.5rem;
-  width: 295px;
-  line-height: 3.5vh;
-}
-.logo{
-  width: 250px;
-  
-}
+
 .divhab1{
   height: 70vh;
   width: 300px;
@@ -1104,9 +1079,7 @@ flex-direction: column;
   width: 250px;
   font-size: 15px;
 }
-.subtitle{
-  line-height: 2.8vh;
-}
+
 .titlebackground{
   width: 240px;
 }

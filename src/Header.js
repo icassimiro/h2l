@@ -1,4 +1,5 @@
 import gold from "./Images/gold.png";
+import h2l from "./Images/h2l.png";
 
 import React, { useState, useEffect, useMemo } from "react";
 
@@ -20,6 +21,7 @@ const Header = () => {
     <nav className={`${sticky ? "sticky" : ""}`}>
       <div className="menubars">
         <img className="imgicon1" src={gold}></img>
+        <img className="imgicon2" src={h2l}></img>
         
         
       </div>

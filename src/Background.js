@@ -12,15 +12,11 @@ export default function Background() {
     
       <div className="divtextbackground">
 
-        <div className="divlogo">
-          <img className="logo" src={goldlogo}></img>
-        </div>
+      
         <div className="divtitle">
           <h2 className="titlebackground">Construir estruturas sólidas e relacionamentos duradouros!<hr className="hrr"></hr></h2>
         </div>
-        <div className="divsubtitle">
-          <h3 className="subtitle">H2L engenharia é uma empresa focada na excelência técnica, operacional, inovação e compromisso com a satisfação de seus clientes, investidores e colaboradores.</h3>
-        </div>
+      
         
       
       </div>
