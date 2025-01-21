@@ -482,8 +482,8 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-  padding-top: 6rem;
-  padding-bottom: 1rem;
+
+  padding-bottom: 1rem; 
   align-items: center;
 
 }
@@ -545,7 +545,7 @@ font-family: Verdana;
   height: 100%;
   align-items: center;
   padding-top:2rem;
-  padding-bottom:6rem;
+
 
 
 }
@@ -643,7 +643,7 @@ nav.awssld__bullets {
 
 
 .awssld__content {
-  --content-background-color:red;
+  --content-background-color:#040404;
   
 
  
@@ -728,7 +728,7 @@ nav.awssld__bullets {
   gap:1rem;
   }
   .awssld{
-    height: 120vh;
+    height: 140vh;
   }
  
 
@@ -921,9 +921,21 @@ flex-direction: column;
    
 
   }
+  .menubars{
+    height: 7vh;
+  }
+  .imgicon1 {
+    width: 30px;
+  
+  
+  }
+  .imgicon2 {
+    width: 40px;
+  
+  }
 
   .awssld{
-    height:105vh;
+    height:110vh;
   
   }
   .columnap{
@@ -952,6 +964,7 @@ flex-direction: column;
     line-height: 3vh;
     font-size:21px;
   }
+  
  
  
   .divhab1{
@@ -991,7 +1004,7 @@ flex-direction: column;
   }
   .divhabitacional{
     padding-top:0.5rem;
-    padding-bottom:3.5rem;
+ 
   }
   .divboard{
     padding-top:0.5rem;
@@ -1053,10 +1066,7 @@ flex-direction: column;
     font-size: 45px;
   
     }
-    .divboardtitle2{
-  padding-top:4.5rem;
-    }
- 
+    
 
 }
 @media screen and (max-width: 380px){
@@ -1091,7 +1101,7 @@ flex-direction: column;
   height: 85vh;
 }
 .awssld{
-  height: 140vh;
+  height: 125vh;
 }
 
 
@@ -1110,6 +1120,9 @@ flex-direction: column;
   }
   .textboardhl{
     font-size: 20px;
+  }
+  .awssld{
+    height: 135vh;
   }
  
 
