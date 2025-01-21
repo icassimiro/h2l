@@ -278,7 +278,7 @@
 
 }
 .imgicon2 {
-  width: 60px;
+  width: 50px;
   animation: initialimg 4s infinite;
   padding-right:1.5rem;
 
@@ -933,7 +933,7 @@ flex-direction: column;
   
   }
   .imgicon2 {
-    width: 40px;
+    width: 35px;
   
   }
   .divboardtitle{
