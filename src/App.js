@@ -23,14 +23,16 @@ function App() {
 
       <Background />
       <Habitacional />
+      
       <Habtext/>
-
-      <Construction />
       <Texthl />
       <Board />
 
 
       <Boardt />
+
+      <Construction />
+     
       <Logo />
 
       <Infos />

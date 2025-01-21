@@ -407,7 +407,7 @@ font-size:17px;
 
 }
 .awssld{
-  height: 100vh;
+  height: 105vh;
   
 }
 
@@ -482,7 +482,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #040404;
-
+  padding-top: 7rem;
   padding-bottom: 1rem; 
   align-items: center;
 
@@ -728,7 +728,7 @@ nav.awssld__bullets {
   gap:1rem;
   }
   .awssld{
-    height: 140vh;
+    height: 145vh;
   }
  
 
@@ -883,7 +883,10 @@ flex-direction: column;
     
 
   }
-  
+  .awssld{
+    height: 145vh;
+  }
+ 
  
 
 }
@@ -933,9 +936,15 @@ flex-direction: column;
     width: 40px;
   
   }
+  .divboardtitle{
+    padding-top:4rem;
+  }
+  .divboardtitle2{
+    padding-top:4rem;
+  }
 
   .awssld{
-    height:110vh;
+    height:100vh;
   
   }
   .columnap{
@@ -1101,7 +1110,7 @@ flex-direction: column;
   height: 85vh;
 }
 .awssld{
-  height: 125vh;
+  height: 115vh;
 }
 
 
@@ -1122,7 +1131,7 @@ flex-direction: column;
     font-size: 20px;
   }
   .awssld{
-    height: 135vh;
+    height: 120vh;
   }
  
 
