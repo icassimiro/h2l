@@ -183,6 +183,9 @@ button:hover {
   width: 500px;
   animation: fadeIn 5s infinite;
 }
+.divwallpaper{
+  background-color:transparent;
+}
 
 @keyframes initialimgw {
 
@@ -197,12 +200,12 @@ button:hover {
 
 
 @keyframes initialimg {
-  20% {
-    opacity: 0.2;
+  30% {
+    opacity: 0.6;
   }
 
   50% {
-    opacity: 0.5;
+    opacity: 0.8;
   }
 
   100% {
@@ -259,6 +262,8 @@ button:hover {
   justify-content: center;
   width: 100%;
   align-items: center;
+
+
 
 
 
@@ -1058,7 +1063,7 @@ nav.awssld__bullets {
 
   .divflexinfo{
     flex-direction: column-reverse;
-    gap:5rem;
+    gap:2rem;
   }
 }
 
@@ -1159,6 +1164,11 @@ nav.awssld__bullets {
 
 
   }
+  .cert{
+    width: 200px;
+  
+    
+  }
   .hrrb{
     width: 145px;
     height: 0.1vh;
@@ -1230,9 +1240,10 @@ nav.awssld__bullets {
 
 
   .texthab {
-    width: 280px;
-    font-size: 16px;
-    line-height: 2.9vh;
+    width: 310px;
+    font-size: 15px;
+    line-height: 2.7vh;
+    letter-spacing: 0.2px;
 
   }
 
@@ -1252,9 +1263,7 @@ nav.awssld__bullets {
   .textboardhl {
     font-size: 23px;
   }
-  .divflexinfo{
-    gap:4rem;
-  }
+ 
 
 
   .subtitleap {
@@ -1354,7 +1363,7 @@ nav.awssld__bullets {
 
   .texthab {
     line-height: 3.2vh;
-    width: 250px;
+    width: 300px;
     font-size: 15px;
   }
 
@@ -1380,6 +1389,9 @@ nav.awssld__bullets {
 
 @media screen and (max-width: 350px) {
   .boards {
+    width: 280px;
+  }
+  .texthab{
     width: 280px;
   }
 
