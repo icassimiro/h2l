@@ -279,6 +279,7 @@ button:hover {
   justify-content: center;
   width: 100%;
   align-items: center;
+  padding-top:2.5rem;
 
 
 
@@ -290,9 +291,11 @@ button:hover {
 
 .divinformation {
   display: flex;
-  gap: 5.5rem;
+  gap: 3rem;
   text-align: center;
+
   padding-top: 3rem;
+  
 }
 
 .parceirostext {
@@ -320,6 +323,7 @@ button:hover {
 
   height: 100%;
   flex-direction: column;
+  background-color: #040404;
 
 
 
@@ -338,6 +342,28 @@ button:hover {
 
 .parceirosdescription {
   line-height: 9vh;
+  box-shadow: 0 0px 20px #C1A663;
+  width: 320px;
+ 
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 28px;
+  background-color: transparent;
+height: 20vh;
+
+  
+  
+
+}
+.descripcolumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom:0.1rem;
 
 }
 
@@ -348,28 +374,22 @@ button:hover {
   font-weight: 400;
   letter-spacing: 2px;
 
+
 }
 
 .subdescription {
   color: whitesmoke;
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 100%;
   letter-spacing: 0.2px;
 
 
-}
-
-.divboard2 {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  background-color: #040404;
-  padding-top: 3rem;
-
 
 }
+
+
 
 .titleboard {
 
@@ -413,14 +433,32 @@ button:hover {
 
 
 
+
 }
 
 .divboard {
   display: flex;
-  gap: 3rem;
+  gap: 4.7rem;
   justify-content: center;
-  background-color: #040404;
+  background-color:#040404;
+  height: 100%;
+  align-items: center;
+  padding-top:1rem;
 
+
+
+}
+.divboard2 {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  background-color:#040404;
+  padding-top:4rem;
+  padding-bottom:1rem;
+
+  align-items: center;
+  height: 100%;
+ 
 
 
 }
@@ -528,7 +566,7 @@ button:hover {
 .texthab {
 
 
-  width: 940px;
+  width: 960px;
   font-weight: 200;
   font-style: italic;
   line-height: 5vh;
@@ -586,10 +624,13 @@ button:hover {
 
 
 
+
 }
 
 .awssld {
-  height: 105vh;
+  height: 95vh;
+
+
 
 }
 
@@ -632,9 +673,10 @@ button:hover {
 .infogap {
 
 
-  gap: 0.5rem;
+  gap: 1rem;
   display: flex;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom:0.5rem;
 
 
 
@@ -814,7 +856,7 @@ nav {
   flex-direction: column;
   height: 100%;
   padding-top: 8rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 
 
 
@@ -1021,13 +1063,23 @@ font-size: 28px;
   .divboard {
     flex-direction: column;
 
-    align-items: center;
+    align-items: center; 
+    height: 100%;
+    gap:3rem;
   }
 
   .divboard2 {
-    flex-direction: column;
+    flex-direction: column;    
+    gap:3rem;
+    padding-top:3rem;
 
     align-items: center;
+ 
+    height: 100%;padding-bottom:1rem;
+    
+  }
+  .awssld{
+    height: 135vh;
   }
 
   .boards {
@@ -1038,6 +1090,7 @@ font-size: 28px;
   .divinformation {
     flex-direction: column;
     gap: 3rem;
+    
   }
 
   .parceirosdescription {

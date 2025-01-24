@@ -1,9 +1,9 @@
-import { CiInstagram } from "react-icons/ci";
-import { CiLinkedin } from "react-icons/ci";
+import facebook from "./Images/facebook.png";
+import instagram from "./Images/instagram.png";
+import linkedin from "./Images/linkedin.png";
+
+
 import { FaWhatsapp } from "react-icons/fa";
-
-
-import { AiOutlineFacebook } from "react-icons/ai";
 import certificacoes from "./Images/certificacoes.png";
 
 export default function Infos() {
@@ -15,12 +15,13 @@ export default function Infos() {
                 <h2 className="infos"><strong className="s">END:</strong> Rua Marquesa de Santos 217  São Paulo - SP<hr className="hrri"></hr></h2>
                 <h2 className="infos"><strong className="s">CEP:</strong> 04269-040<hr className="hrri"></hr></h2>
                 <h2 className="infos"><strong className="s">TEL:</strong> (21)99384-1466<hr className="hrri"></hr></h2>
-                <h2 className="infos"><strong className="s">EMAIL:</strong> h2lengenharia@gmail.com<hr className="hrri"></hr></h2>
+                <h2 className="infos"><strong className="s">E-MAIL:</strong> h2lengenharia@gmail.com<hr className="hrri"></hr></h2>
                 </div>
                 <div className="infogap">
-                    <CiInstagram className="infoiconi" />
-                    <CiLinkedin className="infoiconl" />
-                    < AiOutlineFacebook className="infoiconf" />
+                    <img src={facebook} className="infoiconi"></img>
+                    <img src={linkedin} className="infoiconi"></img>
+                    <img src={instagram} className="infoiconi"></img>
+                 
 
 
                 </div>
