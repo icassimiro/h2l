@@ -9,7 +9,7 @@
 
 .videodiv {
   width: 100%;
- 
+
   margin-bottom: -0.5rem;
 
 
@@ -29,10 +29,24 @@
   }
 }
 
+@keyframes leavesw {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.01);
+  }
+}
+
 button {
   cursor: pointer;
 
 }
+
 span.awssld__controls__arrow-right::before {
   box-shadow: 0 0px 18px #C1A663;
   background-color: #000000;
@@ -74,7 +88,7 @@ button:hover {
   bottom: 20px;
   right: 20px;
   font-size: 40px;
-  background-color:black;
+  background-color: black;
   color: #C1A663;
   cursor: pointer;
   border-radius: 9px;
@@ -100,13 +114,13 @@ button:hover {
 
 @keyframes fadeInAnimationicon {
   0% {
-    opacity: 0.7;
+
     transform: scale(1);
     -webkit-transform: scale(1);
   }
 
   100% {
-    opacity: 1;
+
     transform: scale(1.0);
     -webkit-transform: scale(1.05);
   }
@@ -179,12 +193,14 @@ button:hover {
 
 
 }
-.wallpaper{
+
+.wallpaper {
   width: 500px;
-  animation: fadeIn 5s infinite;
+  animation: leavesw 4s ease-in-out infinite alternate;
 }
-.divwallpaper{
-  background-color:transparent;
+
+.divwallpaper {
+  background-color: transparent;
 }
 
 @keyframes initialimgw {
@@ -251,43 +267,46 @@ button:hover {
   border-radius: 20px;
   opacity: 0.8;
   padding-top: 2rem;
- 
+
 
 
 }
-.divparceiros{
+
+.divparceiros {
   display: flex;
   flex-direction: column;
   background-color: #040404;
   justify-content: center;
   width: 100%;
   align-items: center;
-  
-  
+
+
 
 
 
 
 
 }
-.divinformation{
+
+.divinformation {
   display: flex;
-  gap:5.5rem;
+  gap: 5.5rem;
   text-align: center;
-  padding-top:3rem;
+  padding-top: 3rem;
 }
 
-.parceirostext{
+.parceirostext {
   color: #C1A663;
- 
+
   font-size: 38.5px;
   font-style: italic;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: Verdana;
-width: 900px;
+  width: 900px;
   text-align: center;
   justify-content: center;
+  padding-top:1rem;
 
 }
 
@@ -298,10 +317,10 @@ width: 900px;
 
   justify-content: center;
 
- 
+
   height: 100%;
   flex-direction: column;
-  
+
 
 
 
@@ -316,25 +335,29 @@ width: 900px;
   display: flex;
   gap: 2rem;
 }
-.parceirosdescription{
+
+.parceirosdescription {
   line-height: 9vh;
 
 }
-.description{
-  color:#C1A663;
+
+.description {
+  color: #C1A663;
   font-size: 50px;
   font-style: italic;
   font-weight: 400;
   letter-spacing: 2px;
 
 }
-.subdescription{  color:whitesmoke;
+
+.subdescription {
+  color: whitesmoke;
   font-size: 18px;
   font-style: italic;
   font-weight: 200;
   line-height: 100%;
   letter-spacing: 0.2px;
-  
+
 
 }
 
@@ -401,23 +424,24 @@ width: 900px;
 
 
 }
-.infos{
-  color:whitesmoke;
+
+.infos {
+  color: whitesmoke;
   font-weight: 200;
   font-style: italic;
   font-size: 14px;
   letter-spacing: 0.5px;
   width: 260px;
-line-height: 100%;
-padding-left:0.4rem;
+  line-height: 100%;
+  padding-left: 0.4rem;
 }
-.divcert{
 
-}
-.cert{
+.divcert {}
+
+.cert {
   width: 260px;
   animation: fadeInAnimationicon 4s ease-in-out infinite alternate;
-  
+
 }
 
 
@@ -457,7 +481,7 @@ padding-left:0.4rem;
   justify-content: center;
   cursor: pointer;
   font-family: Verdana;
-  margin-top:0.5rem;
+  margin-top: 0.5rem;
 }
 
 .pdf {
@@ -496,7 +520,7 @@ padding-left:0.4rem;
 
   animation: flip 2s alternate infinite ease-in-out;
 
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
 
 
 }
@@ -607,22 +631,23 @@ padding-left:0.4rem;
 
 .infogap {
 
-  
+
   gap: 0.5rem;
-display: flex;
-padding-top:0.5rem;
+  display: flex;
+  padding-top: 0.5rem;
 
 
 
 }
-.divflexinfo{
+
+.divflexinfo {
   display: flex;
-  background-color:#040404;
+  background-color: #040404;
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
-  padding-top:7rem;
-  padding-bottom:4rem;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
 }
 
 .divbtns {
@@ -659,10 +684,11 @@ nav {
   align-items: center;
 
 }
+
 .hrri {
   width: 15px;
 
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 
   height: 0.1vh;
   border: none;
@@ -696,6 +722,7 @@ nav {
 
 
 }
+
 .hrrb {
   width: 200px;
 
@@ -703,11 +730,12 @@ nav {
 
   height: 0.3vh;
   border: none;
-  margin-top:0.3rem;
+  margin-top: 0.3rem;
 
 
 
 }
+
 .hrhl {
   width: 45px;
 
@@ -715,7 +743,7 @@ nav {
 
   height: 0.2vh;
   border: none;
-margin-bottom:1rem;
+  margin-bottom: 1rem;
 
 
 }
@@ -732,7 +760,7 @@ margin-bottom:1rem;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: Verdana;
-  padding-left:0.5rem;
+  padding-left: 0.5rem;
 
 
 }
@@ -745,7 +773,7 @@ margin-bottom:1rem;
   font-weight: 700;
   letter-spacing: 0.5px;
   font-family: Verdana;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
 
 }
 
@@ -785,9 +813,9 @@ margin-bottom:1rem;
 
   flex-direction: column;
   height: 100%;
-  padding-top:8rem;
-  padding-bottom:2.5rem;
-  
+  padding-top: 8rem;
+  padding-bottom: 2.5rem;
+
 
 
 
@@ -912,8 +940,8 @@ nav.awssld__bullets {
 .divinfo {
 
 
-  background-color:transparent;
-  gap:0.5rem;
+  background-color: transparent;
+  gap: 0.7rem;
   display: flex;
   flex-direction: column;
 
@@ -921,7 +949,16 @@ nav.awssld__bullets {
 
 }
 
-.a{
+.siga {
+  color: #C1A663;
+  font-style: italic;
+  letter-spacing: 0.5px;
+padding-left:0.4rem;
+line-height: 100%;
+font-size: 28px;
+}
+
+.a {
   color: whitesmoke;
 }
 
@@ -938,11 +975,12 @@ nav.awssld__bullets {
 
 
 }
+
 .infoiconl {
   color: whitesmoke;
   font-size: 36px;
 
-  cursor: pointer;  
+  cursor: pointer;
 
 
 
@@ -996,21 +1034,25 @@ nav.awssld__bullets {
     width: 400px;
 
   }
-  .divinformation{
+
+  .divinformation {
     flex-direction: column;
-    gap:3rem;
+    gap: 3rem;
   }
-  .parceirosdescription{
+
+  .parceirosdescription {
     line-height: 7vh;
   }
 
   .divbtnwpp {
     padding-left: 0rem;
   }
-  .parceirostext{
-    width: 600px;
+
+  .parceirostext {
+    width: 550px;
   }
-  .wallpaper{
+
+  .wallpaper {
     width: 500px;
   }
 
@@ -1024,9 +1066,10 @@ nav.awssld__bullets {
 
 
   }
-  .texthab{
+
+  .texthab {
     width: 700px;
-    font-size:22px;
+    font-size: 22px;
   }
 
 
@@ -1043,7 +1086,7 @@ nav.awssld__bullets {
     width: 700px;
     line-height: 6vh;
   }
- 
+
 
 
   .slide {
@@ -1056,7 +1099,7 @@ nav.awssld__bullets {
   }
 
 
- 
+
 
 
 
@@ -1074,15 +1117,16 @@ nav.awssld__bullets {
     width: 500px;
     line-height: 4.7vh;
   }
-  .hrrb{
+
+  .hrrb {
     width: 150px;
   }
 
- 
+
 
   .texthab {
     width: 500px;
-    font-size:21px;
+    font-size: 21px;
   }
 
 
@@ -1094,9 +1138,10 @@ nav.awssld__bullets {
 
 @media screen and (max-width: 800px) {
 
-  .divflexinfo{
+  .divflexinfo {
     flex-direction: column-reverse;
-    gap:2rem;
+    gap: 2rem;
+    padding-top: 3.5rem;
   }
 }
 
@@ -1105,6 +1150,7 @@ nav.awssld__bullets {
     font-size: 30px;
 
   }
+
   .parceirostext {
     font-size: 30px;
 
@@ -1142,7 +1188,8 @@ nav.awssld__bullets {
   .awssld {
     height: 145vh;
   }
-  .wallpaper{
+
+  .wallpaper {
     width: 400px;
   }
 
@@ -1157,13 +1204,13 @@ nav.awssld__bullets {
   }
 
   .titlebackground {
-    font-size:20px;
+    font-size: 20px;
     width: 370px;
     line-height: 3.5vh;
-    
+
   }
-  
-  .parceirostext{
+
+  .parceirostext {
     width: 450px;
   }
 
@@ -1195,22 +1242,26 @@ nav.awssld__bullets {
 
 
   }
-  .divparceiros{
-  padding-top:0.5rem;
+
+  .divparceiros {
+    padding-top: 0.5rem;
     background-color: #040404;
   }
-  .cert{
+
+  .cert {
     width: 200px;
-  
-    
+
+
   }
-  .hrrb{
+
+  .hrrb {
     width: 50px;
     height: 0.1vh;
   }
-  .divhab1{
-    padding-bottom:1rem;
-    padding-top:4rem;
+
+  .divhab1 {
+    padding-bottom: 1rem;
+    padding-top: 4rem;
   }
 
   .menubars {
@@ -1266,7 +1317,7 @@ nav.awssld__bullets {
 
   .titlebackground {
     width: 230px;
-    line-height:100%;
+    line-height: 100%;
     font-size: 21px;
   }
 
@@ -1287,19 +1338,22 @@ nav.awssld__bullets {
 
   .textboard {
     font-size: 23px;
-    padding-left:1.2rem;
+    padding-left: 1.2rem;
   }
-  .parceirostext{
+
+  .parceirostext {
     font-size: 23px;
     width: 300px;
   }
-  .wallpaper{
+
+  .wallpaper {
     width: 250px;
   }
+
   .textboardhl {
     font-size: 23px;
   }
- 
+
 
 
   .subtitleap {
@@ -1316,7 +1370,7 @@ nav.awssld__bullets {
 
   }
 
- 
+
 
 
 
@@ -1332,7 +1386,8 @@ nav.awssld__bullets {
   .titleboard {
     width: 270px;
   }
-  .divinformation{}
+
+  .divinformation {}
 
   .slideimg {
     width: 100%;
@@ -1404,7 +1459,7 @@ nav.awssld__bullets {
     font-size: 15px;
   }
 
- 
+
 
   .subtitleap {
     line-height: 3vh;
@@ -1426,7 +1481,8 @@ nav.awssld__bullets {
   .boards {
     width: 280px;
   }
-  .texthab{
+
+  .texthab {
     width: 280px;
   }
 
