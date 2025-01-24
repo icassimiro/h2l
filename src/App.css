@@ -1231,7 +1231,7 @@ nav.awssld__bullets {
 
   .titlebackground {
     width: 230px;
-    line-height: 2.6vh;
+    line-height:100%;
     font-size: 21px;
   }
 
@@ -1367,9 +1367,7 @@ nav.awssld__bullets {
     font-size: 15px;
   }
 
-  .titlebackground {
-    width: 240px;
-  }
+ 
 
   .subtitleap {
     line-height: 3vh;
