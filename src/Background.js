@@ -14,7 +14,7 @@ export default function Background() {
 
       
         <div className="divtitle">
-          <h2 className="titlebackground">Construir estruturas sólidas e relacionamentos duradouros!<hr className="hrr"></hr></h2>
+          <h2 className="titlebackground">Construir estruturas sólidas e relacionamentos duradouros!<hr className="hrrb"></hr></h2>
         </div>
       
         

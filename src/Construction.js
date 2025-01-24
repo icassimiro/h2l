@@ -16,7 +16,7 @@ export default function Construction() {
         
         
         <div className="slide">
-        <h2 className="textboard">OBRAS EM ANDAMENTO<hr className="hrr"></hr></h2>
+        <h2 className="textboard">Obras em andamento<hr className="hrr"></hr></h2>
         <div className="carouselflex">
 
           <img className="slideimg" src={vila} alt=""></img>
@@ -33,14 +33,14 @@ export default function Construction() {
         </div>
         <div className="slide">
      
-        <h2 className="textboard">OBRAS EM ANDAMENTO<hr className="hrr"></hr></h2>
+        <h2 className="textboard">Obras em andamento<hr className="hrr"></hr></h2>
         <div className="carouselflex">
  
           <img className="slideimg" src={ipiranga} alt=""></img>
            <div className="columnap">
       
           <h2 className="titleap">Alto do Ipiranga</h2>
-          <hr className="hrr"></hr>
+        
           <h2 className="subtitleap">Localizado em São Paulo, este projeto representa o inicio de uma importante parceria com a Metrocasa, e reflete nosso objetivo de construir estruturas sólidas e relacionamentos duradouros. 
 
 Estamos orgulhosos de trabalhar ao lado de uma equipe dedicada para tornar este projeto uma realidade.</h2>
