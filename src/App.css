@@ -262,11 +262,19 @@ button:hover {
   justify-content: center;
   width: 100%;
   align-items: center;
+  
+  
 
 
 
 
 
+}
+.divinformation{
+  display: flex;
+  gap:5.5rem;
+  text-align: center;
+  padding-top:3rem;
 }
 
 .parceirostext{
@@ -307,6 +315,27 @@ width: 900px;
 .carouselflex {
   display: flex;
   gap: 2rem;
+}
+.parceirosdescription{
+  line-height: 9vh;
+
+}
+.description{
+  color:#C1A663;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+}
+.subdescription{  color:whitesmoke;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  
+
 }
 
 .divboard2 {
@@ -668,7 +697,7 @@ nav {
 
 }
 .hrrb {
-  width: 782px;
+  width: 200px;
 
   background-color: #C1A663;
 
@@ -967,6 +996,13 @@ nav.awssld__bullets {
     width: 400px;
 
   }
+  .divinformation{
+    flex-direction: column;
+    gap:3rem;
+  }
+  .parceirosdescription{
+    line-height: 7vh;
+  }
 
   .divbtnwpp {
     padding-left: 0rem;
@@ -1007,10 +1043,7 @@ nav.awssld__bullets {
     width: 700px;
     line-height: 6vh;
   }
-  .hrrb{
-    width: 618px;
-  }
-
+ 
 
 
   .slide {
@@ -1042,7 +1075,7 @@ nav.awssld__bullets {
     line-height: 4.7vh;
   }
   .hrrb{
-    width: 454px;
+    width: 150px;
   }
 
  
@@ -1129,9 +1162,7 @@ nav.awssld__bullets {
     line-height: 3.5vh;
     
   }
-  .hrrb{
-    width: 340px;
-  }
+  
   .parceirostext{
     width: 450px;
   }
@@ -1164,13 +1195,17 @@ nav.awssld__bullets {
 
 
   }
+  .divparceiros{
+  padding-top:0.5rem;
+    background-color: #040404;
+  }
   .cert{
     width: 200px;
   
     
   }
   .hrrb{
-    width: 145px;
+    width: 50px;
     height: 0.1vh;
   }
   .divhab1{
@@ -1252,6 +1287,7 @@ nav.awssld__bullets {
 
   .textboard {
     font-size: 23px;
+    padding-left:1.2rem;
   }
   .parceirostext{
     font-size: 23px;
@@ -1296,6 +1332,7 @@ nav.awssld__bullets {
   .titleboard {
     width: 270px;
   }
+  .divinformation{}
 
   .slideimg {
     width: 100%;
