@@ -1,5 +1,5 @@
 
-import { AiFillFacebook } from "react-icons/ai";
+import { ImFacebook2 } from "react-icons/im";
 import { AiFillInstagram } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 
@@ -19,7 +19,7 @@ export default function Infos() {
                 <h2 className="infos"><strong className="s">E-MAIL:</strong> h2lengenharia@gmail.com<hr className="hrri"></hr></h2>
                 </div>
                 <div className="infogap">
-                  <AiFillFacebook className="infoiconf"/>
+                  <ImFacebook2 className="infoiconf"/>
                   <AiFillInstagram className="infoiconi"/>
                   <ImLinkedin className="infoiconl"/>
                    
