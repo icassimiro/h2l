@@ -33,7 +33,7 @@
   0% {
     transform: scale(1);
     -webkit-transform: scale(1);
-    opacity: 0.5;
+    
   }
 
   100% {
@@ -88,12 +88,12 @@ button:hover {
   bottom: 20px;
   right: 20px;
   font-size: 40px;
-  background-color: #C1A663;
-  color: WHITESMOKE;
+  background-color: #303841;
+  color: #C1A663;
   cursor: pointer;
   border-radius: 9px;
   border: none;
-  box-shadow: 0 0px 20px #040404;
+  box-shadow: 0 0px 20px #080809;
   display: flex;
   align-items: center;
 
@@ -377,8 +377,9 @@ button:hover {
   border-radius: 28px;
   background-color: transparent;
   height: 20vh;
-  background: linear-gradient(#080809, #303841);
+  background: linear-gradient( #303841);
   animation: leaves 4s ease-in-out infinite alternate;
+  box-shadow: 0 0px 16px #080809;
 
 
 
@@ -449,7 +450,7 @@ button:hover {
 }
 
 .boards {
-  background: linear-gradient(#080809, #303841);
+  background: linear-gradient( #303841);
   border-radius: 28px;
   display: flex;
   justify-content: center;
@@ -458,6 +459,7 @@ button:hover {
   height: 40vh;
   gap: 0.4rem;
   animation: leaves 4s ease-in-out infinite alternate;
+ box-shadow: 0 0px 16px #080809;
 
 
 
@@ -468,7 +470,7 @@ button:hover {
 
 .divboard {
   display: flex;
-  gap: 4.7rem;
+  gap: 3rem;
   justify-content: center;
   background-color: #303841;
   height: 100%;
@@ -481,10 +483,10 @@ button:hover {
 
 .divboard2 {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   justify-content: center;
   background-color: #303841;
-  padding-top: 4rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
 
   align-items: center;
@@ -546,7 +548,9 @@ a {
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.5px;
-  background: linear-gradient(#080809, #303841);
+  background-color:#303841;
+ 
+  box-shadow: 0 0px 16px #080809;
   border: none;
   color: #C1A663;
   height: 7vh;
@@ -637,7 +641,9 @@ a {
 
 .projeto {
   color: #C1A663;
-  background: linear-gradient(#080809, #303841);
+  background-color:#303841;
+ 
+  box-shadow: 0 0px 16px #080809;
 
 
   border: none;
@@ -992,6 +998,7 @@ nav.awssld__bullets {
 
 .awssld__content {
   --content-background-color: #303841;
+  
 
 
 
