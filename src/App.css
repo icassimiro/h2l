@@ -377,9 +377,9 @@ button:hover {
   border-radius: 28px;
   background-color: transparent;
   height: 20vh;
-  background: linear-gradient( #303841);
+background-color: #C1A663;
   animation: leaves 4s ease-in-out infinite alternate;
-  box-shadow: 0 0px 16px #080809;
+
 
 
 
@@ -398,8 +398,8 @@ button:hover {
 }
 
 .description {
-  color: #C1A663;
-  font-size: 50px;
+  color:  #303841;
+  font-size: 45px;
   font-style: italic;
   font-weight: 400;
   letter-spacing: 2px;
@@ -409,7 +409,7 @@ button:hover {
 }
 
 .subdescription {
-  color: whitesmoke;
+  color:  #303841;
   font-size: 17px;
   font-style: italic;
   font-weight: 200;
@@ -426,7 +426,7 @@ button:hover {
 
 
 
-  color: #C1A663;
+  color:  #303841;
 
 
   width: 450px;
@@ -450,7 +450,7 @@ button:hover {
 }
 
 .boards {
-  background: linear-gradient( #303841);
+  background-color: #C1A663;
   border-radius: 28px;
   display: flex;
   justify-content: center;
@@ -459,7 +459,8 @@ button:hover {
   height: 40vh;
   gap: 0.4rem;
   animation: leaves 4s ease-in-out infinite alternate;
- box-shadow: 0 0px 16px #080809;
+  
+ 
 
 
 
@@ -476,6 +477,7 @@ button:hover {
   height: 100%;
   align-items: center;
   padding-top: 1rem;
+  
 
 
 
@@ -548,11 +550,10 @@ a {
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.5px;
-  background-color:#303841;
- 
-  box-shadow: 0 0px 16px #080809;
+  color: #303841;
+  background-color: #C1A663;
   border: none;
-  color: #C1A663;
+
   height: 7vh;
   border-radius: 10px;
 
@@ -640,10 +641,10 @@ a {
 }
 
 .projeto {
-  color: #C1A663;
-  background-color:#303841;
+  color: #303841;
+  background-color: #C1A663;
  
-  box-shadow: 0 0px 16px #080809;
+  
 
 
   border: none;
@@ -971,15 +972,15 @@ nav {
 
 .subboards {
 
-  width: 320px;
+  width: 300px;
   text-align: center;
 
   font-size: 17px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.5px;
   line-height: 3.8vh;
-  color: whitesmoke;
+  color: #303841;
 
 
 
