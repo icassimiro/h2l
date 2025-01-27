@@ -33,7 +33,7 @@
   0% {
     transform: scale(1);
     -webkit-transform: scale(1);
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
   100% {
@@ -1534,7 +1534,9 @@ font-size: 28px;
     width: 270px;
   }
 
-  .divinformation {}
+  .divinformation {
+    padding-top:2rem;
+  }
 
   .slideimg {
     width: 100%;
@@ -1590,6 +1592,9 @@ font-size: 28px;
   .subboards {
     line-height: 3vh;
   }
+  .divhab1{
+    padding-top: 6rem;
+  }
 
 
 
@@ -1600,6 +1605,7 @@ font-size: 28px;
   }
   .parceirosdescription {
     width: 260px;
+    height: 17vh;
    
    
      
