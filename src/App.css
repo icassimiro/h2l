@@ -93,7 +93,7 @@ button:hover {
   cursor: pointer;
   border-radius: 9px;
   border: none;
-  box-shadow: 0 0px 16px #303841;
+  box-shadow: 0 0px 16px #C1A663;
   display: flex;
   align-items: center;
 
@@ -351,7 +351,7 @@ button:hover {
 
 .parceirosdescription {
   line-height: 9vh;
-  box-shadow: 0 0px 22px #303841;
+
   width: 320px;
  
   border: none;
@@ -361,6 +361,7 @@ button:hover {
   border-radius: 28px;
   background-color: transparent;
 height: 20vh;
+background: linear-gradient(#080809, #303841);
 
   
   
@@ -1363,7 +1364,7 @@ font-size: 28px;
 
   .divhab1 {
     padding-bottom: 1rem;
-    padding-top: 5rem;
+    
   }
 
   .menubars {
@@ -1390,7 +1391,7 @@ font-size: 28px;
   }
 
   .awssld {
-    height: 105vh;
+    height: 120vh;
 
   }
 
