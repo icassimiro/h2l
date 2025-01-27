@@ -815,6 +815,8 @@ nav {
   height: 0.2vh;
   border: none;
   margin-bottom: 1rem;
+  
+
 
 
 }
@@ -1494,6 +1496,9 @@ font-size: 28px;
 
   .textboardhl {
     font-size: 23px;
+  }
+  .hrhl{
+    margin-top:0.2rem;
   }
 
 
