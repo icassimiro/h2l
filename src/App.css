@@ -174,12 +174,13 @@ button:hover {
   animation: none;
 
 }
-.subbackground{
+
+.subbackground {
   width: 800px;
   font-weight: 300;
   font-style: italic;
   line-height: 4vh;
-  padding-top:0.2rem;
+  padding-top: 0.2rem;
 }
 
 .divtitle {
@@ -235,6 +236,7 @@ button:hover {
     opacity: 1;
   }
 }
+
 @keyframes initialimgi {
   30% {
     opacity: 0.3;
@@ -299,12 +301,13 @@ button:hover {
   justify-content: center;
   width: 100%;
   align-items: center;
-  padding-top:2.5rem;
+  padding-top: 2.5rem;
 
 }
-.strong{
+
+.strong {
   font-weight: 700;
-  color:#C1A663;
+  color: #C1A663;
   font-size: 38.5px;
   font-family: verdana;
   letter-spacing: 0.5px;
@@ -316,7 +319,7 @@ button:hover {
   text-align: center;
 
   padding-top: 3rem;
-  
+
 }
 
 
@@ -331,7 +334,7 @@ button:hover {
   width: 900px;
   text-align: center;
   justify-content: center;
-  padding-top:1rem;
+  padding-top: 1rem;
 
 }
 
@@ -366,29 +369,30 @@ button:hover {
   line-height: 9vh;
 
   width: 320px;
- 
+
   border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 28px;
   background-color: transparent;
-height: 20vh;
-background: linear-gradient(#080809, #303841);
-animation: leaves 4s ease-in-out infinite alternate;
+  height: 20vh;
+  background: linear-gradient(#080809, #303841);
+  animation: leaves 4s ease-in-out infinite alternate;
 
-  
-  
+
+
 
 }
-.descripcolumn{
+
+.descripcolumn {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100%;
-  padding-bottom:0.1rem;
-  gap:0.4rem;
+  padding-bottom: 0.1rem;
+  gap: 0.4rem;
 
 }
 
@@ -466,29 +470,31 @@ animation: leaves 4s ease-in-out infinite alternate;
   display: flex;
   gap: 4.7rem;
   justify-content: center;
-  background-color:#040404;
+  background-color: #040404;
   height: 100%;
   align-items: center;
-  padding-top:1rem;
+  padding-top: 1rem;
 
 
 
 }
+
 .divboard2 {
   display: flex;
   gap: 4rem;
   justify-content: center;
-  background-color:#040404;
-  padding-top:4rem;
-  padding-bottom:1rem;
+  background-color: #040404;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 
   align-items: center;
   height: 100%;
- 
+
 
 
 }
-a{
+
+a {
   border: none;
   text-decoration: none;
   display: flex;
@@ -502,7 +508,7 @@ a{
   letter-spacing: 0.5px;
   width: 260px;
   line-height: 100%;
- 
+
   height: 100%;
 }
 
@@ -552,7 +558,7 @@ a{
   cursor: pointer;
   font-family: Verdana;
   margin-top: 0.5rem;
-  
+
 }
 
 .pdf {
@@ -710,7 +716,7 @@ a{
   gap: 1rem;
   display: flex;
   padding-top: 1rem;
-  padding-bottom:0.5rem;
+  padding-bottom: 0.5rem;
   align-items: center;
 
 
@@ -765,11 +771,11 @@ nav {
 .hrri {
   width: 15px;
 
-  background-color:#C1A663;
+  background-color: #C1A663;
 
   height: 0.1vh;
   border: none;
-  margin-top:0.1rem;
+  margin-top: 0.1rem;
 
 
 
@@ -822,7 +828,7 @@ nav {
   height: 0.2vh;
   border: none;
   margin-bottom: 1rem;
-  
+
 
 
 
@@ -1034,8 +1040,8 @@ nav.awssld__bullets {
   font-style: italic;
   letter-spacing: 0.5px;
 
-line-height: 100%;
-font-size: 28px;
+  line-height: 100%;
+  font-size: 28px;
 }
 
 .a {
@@ -1052,7 +1058,7 @@ font-size: 28px;
 
   cursor: pointer;
 
-  color: #C1A663; 
+  color: #C1A663;
 
 
 }
@@ -1061,9 +1067,10 @@ font-size: 28px;
   color: whitesmoke;
   font-size: 28px;
 
-  cursor: pointer; color: #C1A663; 
+  cursor: pointer;
+  color: #C1A663;
   border-radius: 7px;
-  
+
 
 
 
@@ -1075,22 +1082,25 @@ font-size: 28px;
   font-size: 27px;
   border-radius: 7.5px;
   cursor: pointer;
-  color: #C1A663; 
- 
+  color: #C1A663;
+
 
 }
+
 .infoiconf:hover {
   transition: 1.5s;
   cursor: pointer;
 
   transform: scale(1.1);
 }
+
 .infoiconi:hover {
   transition: 1.5s;
   cursor: pointer;
 
   transform: scale(1.1);
 }
+
 .infoiconl:hover {
   transition: 1.5s;
   cursor: pointer;
@@ -1105,7 +1115,7 @@ font-size: 28px;
   letter-spacing: 1.5px;
   font-weight: 200;
   font-style: italic;
- margin-bottom:0.3rem;
+  margin-bottom: 0.3rem;
 
 }
 
@@ -1126,22 +1136,24 @@ font-size: 28px;
   .divboard {
     flex-direction: column;
 
-    align-items: center; 
+    align-items: center;
     height: 100%;
-    gap:3rem;
+    gap: 3rem;
   }
 
   .divboard2 {
-    flex-direction: column;    
-    gap:3rem;
-    padding-top:3rem;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
 
     align-items: center;
- 
-    height: 100%;padding-bottom:1rem;
-    
+
+    height: 100%;
+    padding-bottom: 1rem;
+
   }
-  .awssld{
+
+  .awssld {
     height: 135vh;
   }
 
@@ -1153,7 +1165,7 @@ font-size: 28px;
   .divinformation {
     flex-direction: column;
     gap: 3rem;
-    
+
   }
 
   .parceirosdescription {
@@ -1202,10 +1214,11 @@ font-size: 28px;
     width: 700px;
     line-height: 6vh;
   }
-  .subbackground{
+
+  .subbackground {
     width: 500px;
   }
-  
+
 
 
 
@@ -1249,8 +1262,9 @@ font-size: 28px;
     width: 500px;
     font-size: 21px;
   }
-  .subbackground{
-   display: none;
+
+  .subbackground {
+    display: none;
   }
 
 
@@ -1267,8 +1281,9 @@ font-size: 28px;
 
     padding-top: 2.5rem;
   }
-  .infomargin{
-    padding-top:5.5rem;
+
+  .infomargin {
+    padding-top: 5.5rem;
   }
 
 }
@@ -1283,9 +1298,10 @@ font-size: 28px;
     font-size: 30px;
 
   }
-  .strong{
-  
-      font-size: 30px;
+
+  .strong {
+
+    font-size: 30px;
 
   }
 
@@ -1342,7 +1358,7 @@ font-size: 28px;
     line-height: 3.5vh;
 
   }
- 
+
   .parceirostext {
     width: 450px;
   }
@@ -1375,32 +1391,34 @@ font-size: 28px;
 
 
   }
-  
-.video {
 
- 
-  filter: brightness(65%);
+  .video {
 
 
+    filter: brightness(65%);
 
-}
+
+
+  }
 
 
   .parceirosdescription {
-   width: 280px;
-   height: 14vh;
-  
-    
-    
-  
+    width: 280px;
+    height: 14vh;
+
+
+
+
   }
+
   .back-to-top {
- 
+
     bottom: 15px;
     right: 15px;
 
-    }
-  .description{
+  }
+
+  .description {
     font-size: 40px;
     font-weight: 600;
   }
@@ -1409,12 +1427,12 @@ font-size: 28px;
     padding-top: 2rem;
     background-color: #040404;
   }
-  .descripcolumn{
-    
-  }
-  .subdescription{
+
+  .descripcolumn {}
+
+  .subdescription {
     font-size: 14px;
-   
+
 
   }
 
@@ -1431,8 +1449,8 @@ font-size: 28px;
 
   .divhab1 {
     padding-bottom: 1rem;
-    padding-top:4rem;
-    
+    padding-top: 4rem;
+
   }
 
   .menubars {
@@ -1470,8 +1488,14 @@ font-size: 28px;
 
   .projeto {
     opacity: 0.8;
-    width: 280px;
-    font-size: 17px;
+    width: 240px;
+    height: 5.5vh;
+
+  }
+
+  .wpp {
+    height: 5.5vh;
+
   }
 
   .videodiv {
@@ -1516,11 +1540,12 @@ font-size: 28px;
     font-size: 23px;
     width: 300px;
   }
-  .strong{
-  
+
+  .strong {
+
     font-size: 23px;
 
-}
+  }
 
   .wallpaper {
     width: 250px;
@@ -1529,8 +1554,9 @@ font-size: 28px;
   .textboardhl {
     font-size: 23px;
   }
-  .hrhl{
-    margin-top:0.2rem;
+
+  .hrhl {
+    margin-top: 0.2rem;
   }
 
 
@@ -1545,7 +1571,7 @@ font-size: 28px;
 
   .boards {
     width: 310px;
-    height: 30vh;
+    height: 32vh;
 
   }
 
@@ -1567,7 +1593,7 @@ font-size: 28px;
   }
 
   .divinformation {
-    padding-top:2rem;
+    padding-top: 2rem;
   }
 
   .slideimg {
@@ -1625,7 +1651,7 @@ font-size: 28px;
   .subboards {
     line-height: 3vh;
   }
-  
+
 
 
 
@@ -1634,15 +1660,16 @@ font-size: 28px;
     width: 300px;
     font-size: 15px;
   }
+
   .parceirosdescription {
     width: 260px;
     height: 17vh;
-   
-   
-     
-     
-   
-   }
+
+
+
+
+
+  }
 
 
 
@@ -1655,14 +1682,26 @@ font-size: 28px;
     height: 120vh;
   }
 
+  .projeto {
+    height: 6.5vh;
+  }
+
+  .wpp {
+
+    height: 6.5vh;
+
+  }
+
 
 
 }
 
 @media screen and (max-width: 376px) and (max-height: 668px) {
-  .awssld{
+  .awssld {
     height: 135vh;
   }
+
+
 
 }
 
@@ -1685,15 +1724,17 @@ font-size: 28px;
   .textboardhl {
     font-size: 20px;
   }
-  .parceirostext{
 
-      font-size: 20px;
-      width: 270px;
-   
-  }
-  .strong{
+  .parceirostext {
+
     font-size: 20px;
-    
+    width: 270px;
+
+  }
+
+  .strong {
+    font-size: 20px;
+
   }
 
   .awssld {
@@ -1703,9 +1744,10 @@ font-size: 28px;
 
 
 }
-@media screen and (max-width: 345px){
-  
-  .awssld{
+
+@media screen and (max-width: 345px) {
+
+  .awssld {
     height: 103vh;
 
   }
