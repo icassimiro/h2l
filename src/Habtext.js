@@ -9,7 +9,7 @@ export default function Habtext() {
         <h2 className="textboardhab">H2L Engenharia<hr className="hrr"></hr></h2> 
        
            
-            <h3 className="texthab"><strong className="s">Fundada em 2016</strong>, a H2L Engenharia é referência em <strong className="s">soluções inovadoras e sustentáveis</strong> no mercado da construção civil. Atuando no <strong className="s">Rio de Janeiro</strong>e <strong className="s">São Paulo</strong>, entregamos excelência técnica, eficiência operacional e cumprimento rigoroso de prazos.<hr className="hrhl"></hr></h3>
+            <h3 className="texthab"><strong className="s">Fundada em 2016</strong>, a H2L Engenharia é referência em <strong className="s">soluções inovadoras e sustentáveis</strong> no mercado da construção civil. Atuando no <strong className="s">Rio de Janeiro</strong> e <strong className="s">São Paulo</strong>, entregamos excelência técnica, eficiência operacional e cumprimento rigoroso de prazos.<hr className="hrhl"></hr></h3>
        
     
          
