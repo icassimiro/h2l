@@ -88,18 +88,19 @@ button:hover {
   bottom: 20px;
   right: 20px;
   font-size: 40px;
-  background-color: #303841;
+  background-color: #C1A663;
   color: #C1A663;
   cursor: pointer;
-  border-radius: 9px;
+  border-radius: 10px;
   border: none;
-  box-shadow: 0 0px 20px #080809;
+  
   display: flex;
   align-items: center;
 
   font-weight: bold;
   height: 5.5vh;
   z-index: 999;
+  color:#303841;
 }
 
 @keyframes fadeInAnimation {
@@ -555,7 +556,7 @@ a {
   border: none;
 
   height: 7vh;
-  border-radius: 10px;
+  border-radius: 14px;
 
   display: flex;
   align-items: center;
@@ -651,7 +652,7 @@ a {
   width: 240px;
   font-size: 15px;
   font-style: italic;
-  border-radius: 10px;
+  border-radius: 14px;
   font-weight: 600;
   margin-top: 1rem;
   height: 7vh;
@@ -710,6 +711,7 @@ a {
   font-size: 28px;
   padding-left: 0.4rem;
   animation: initialimgi 6s infinite;
+  color: #303841;
 }
 
 .iconpdf {
