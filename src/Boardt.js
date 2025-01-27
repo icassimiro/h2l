@@ -8,7 +8,7 @@ export default function Boardt() {
             </div>
             <div className="boards">
                 <h2 className="titleboard">Sustentabilidade</h2>
-                <h2 className="subboards">Integramos práticas sustentáveis em nossos projetos, para reduzir os impactos no meio ambiente e promover o uso eficiente dos recursos.</h2>
+                <h2 className="subboards">Integramos práticas sustentáveis em nossos projetos, reduzindo impactos ambientais e promovendo o uso eficiente dos recursos.</h2>
             </div>
 
 
