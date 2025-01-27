@@ -7,7 +7,7 @@ export default function Logo() {
         <div className="divinformation">
             <div className="parceirosdescription"> <div className="descripcolumn"><h2 className="description">15K+</h2><h2 className="subdescription">Unidades habitacionais</h2></div></div>
             
-            <div className="parceirosdescription"><div className="descripcolumn"> <h2 className="description">R$1,2B+</h2><h2 className="subdescription">Em VGV</h2></div></div>
+            <div className="parceirosdescription"><div className="descripcolumn"> <h2 className="description">R$2,2B+</h2><h2 className="subdescription">Em VGV</h2></div></div>
             <div className="parceirosdescription"><div className="descripcolumn"> <h2 className="description">800K+</h2><h2 className="subdescription">Metros quadrados construídos</h2></div></div>
 
         </div>

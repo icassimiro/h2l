@@ -49,13 +49,13 @@ button {
 
 span.awssld__controls__arrow-right::before {
   box-shadow: 0 0px 18px #C1A663;
-  background-color: #000000;
+  background-color: WHITESMOKE;
 
 }
 
 span.awssld__controls__arrow-right::after {
   box-shadow: 0 0px 18px #C1A663;
-  background-color: #000000;
+  background-color: WHITESMOKE;
 
 }
 
@@ -63,14 +63,14 @@ span.awssld__controls__arrow-left::before {
 
 
   box-shadow: 0 0px 18px #C1A663;
-  background-color: #000000;
+  background-color: WHITESMOKE;
 }
 
 span.awssld__controls__arrow-left::after {
 
 
   box-shadow: 0 0px 18px #C1A663;
-  background-color: #000000;
+  background-color: WHITESMOKE;
 
 }
 
@@ -88,12 +88,12 @@ button:hover {
   bottom: 20px;
   right: 20px;
   font-size: 40px;
-  background-color: black;
-  color: #C1A663;
+  background-color: #C1A663;
+  color: WHITESMOKE;
   cursor: pointer;
   border-radius: 9px;
   border: none;
-  box-shadow: 0 0px 16px #C1A663;
+  box-shadow: 0 0px 20px #040404;
   display: flex;
   align-items: center;
 
@@ -297,7 +297,7 @@ button:hover {
 .divparceiros {
   display: flex;
   flex-direction: column;
-  background-color: #040404;
+  background-color: #303841;
   justify-content: center;
   width: 100%;
   align-items: center;
@@ -348,7 +348,7 @@ button:hover {
 
   height: 100%;
   flex-direction: column;
-  background-color: #040404;
+  background-color: TRANSPARENT;
 
 
 
@@ -470,7 +470,7 @@ button:hover {
   display: flex;
   gap: 4.7rem;
   justify-content: center;
-  background-color: #040404;
+  background-color: #303841;
   height: 100%;
   align-items: center;
   padding-top: 1rem;
@@ -483,7 +483,7 @@ button:hover {
   display: flex;
   gap: 4rem;
   justify-content: center;
-  background-color: #040404;
+  background-color: #303841;
   padding-top: 4rem;
   padding-bottom: 1rem;
 
@@ -595,7 +595,7 @@ a {
   width: 90px;
 
 
-  animation: flip 2s alternate infinite ease-in-out;
+
 
   padding-bottom: 1rem;
 
@@ -725,7 +725,7 @@ a {
 
 .divflexinfo {
   display: flex;
-  background-color: #040404;
+  background-color: #303841;
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
@@ -881,7 +881,7 @@ nav {
   justify-content: center;
 
 
-  background-color: #040404;
+  background-color: #303841;
   height: 100%;
   align-items: center;
 
@@ -991,7 +991,7 @@ nav.awssld__bullets {
 
 
 .awssld__content {
-  --content-background-color: #040404;
+  --content-background-color: #303841;
 
 
 
@@ -1017,7 +1017,7 @@ nav.awssld__bullets {
 }
 
 .divcopy {
-  background-color: #040404;
+  background-color: #303841;
   display: flex;
   justify-content: center;
 
@@ -1041,7 +1041,7 @@ nav.awssld__bullets {
   letter-spacing: 0.5px;
 
   line-height: 100%;
-  font-size: 23px;
+  font-size: 23 px;
 }
 
 .a {
@@ -1425,7 +1425,7 @@ nav.awssld__bullets {
 
   .divparceiros {
     padding-top: 2rem;
-    background-color: #040404;
+
   }
 
   .descripcolumn {}
