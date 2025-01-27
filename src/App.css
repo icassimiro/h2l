@@ -235,6 +235,19 @@ button:hover {
     opacity: 1;
   }
 }
+@keyframes initialimgi {
+  30% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 .divtextbackground {
 
@@ -362,6 +375,7 @@ button:hover {
   background-color: transparent;
 height: 20vh;
 background: linear-gradient(#080809, #303841);
+animation: leaves 4s ease-in-out infinite alternate;
 
   
   
@@ -490,7 +504,7 @@ background: linear-gradient(#080809, #303841);
 
 .cert {
   width: 260px;
-  animation: fadeInAnimationicon 4s ease-in-out infinite alternate;
+  animation: fadeInAnimationicon 2s ease-in-out infinite alternate;
 
 }
 
@@ -532,6 +546,7 @@ background: linear-gradient(#080809, #303841);
   cursor: pointer;
   font-family: Verdana;
   margin-top: 0.5rem;
+  
 }
 
 .pdf {
@@ -675,6 +690,7 @@ background: linear-gradient(#080809, #303841);
 .iconwpp {
   font-size: 28px;
   padding-left: 0.4rem;
+  animation: initialimgi 6s infinite;
 }
 
 .iconpdf {
@@ -689,6 +705,7 @@ background: linear-gradient(#080809, #303841);
   display: flex;
   padding-top: 1rem;
   padding-bottom:0.5rem;
+  align-items: center;
 
 
 
@@ -1026,15 +1043,19 @@ font-size: 28px;
 
   cursor: pointer;
 
+  color: #C1A663; 
 
 
 }
 
 .infoiconl {
   color: whitesmoke;
-  font-size: 36px;
+  font-size: 28px;
 
-  cursor: pointer;
+  cursor: pointer; color: #C1A663; 
+  border-radius: 7px;
+  margin-left:0.15rem;
+
 
 
 
@@ -1042,9 +1063,11 @@ font-size: 28px;
 
 .infoiconf {
   color: whitesmoke;
-  font-size: 34.5px;
+  font-size: 33.5px;
   border-radius: 20px;
   cursor: pointer;
+  color: #C1A663; 
+ 
 
 }
 
