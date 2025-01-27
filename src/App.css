@@ -497,7 +497,7 @@ animation: leaves 4s ease-in-out infinite alternate;
   letter-spacing: 0.5px;
   width: 260px;
   line-height: 100%;
-  padding-left: 0.4rem;
+ 
   height: 100%;
 }
 
@@ -953,7 +953,7 @@ nav {
 
 .subboards {
 
-  width: 340px;
+  width: 320px;
   text-align: center;
 
   font-size: 17px;
@@ -1027,7 +1027,7 @@ nav.awssld__bullets {
   color: #C1A663;
   font-style: italic;
   letter-spacing: 0.5px;
-padding-left:0.4rem;
+
 line-height: 100%;
 font-size: 28px;
 }
@@ -1066,13 +1066,32 @@ font-size: 28px;
 
 .infoiconf {
   color: whitesmoke;
-  font-size: 28px;
+  font-size: 27px;
   border-radius: 7.5px;
   cursor: pointer;
   color: #C1A663; 
  
 
 }
+.infoiconf:hover {
+  transition: 1.5s;
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+.infoiconi:hover {
+  transition: 1.5s;
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+.infoiconl:hover {
+  transition: 1.5s;
+  cursor: pointer;
+
+  transform: scale(1.1);
+}
+
 
 .copy {
   color: #C1A663;
