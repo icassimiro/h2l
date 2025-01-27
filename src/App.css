@@ -151,7 +151,7 @@ button:hover {
   width: 100%;
   top: 0;
   left: 0;
-  filter: brightness(40%);
+  filter: brightness(50%);
   height: 100%;
   background-color: black;
 
@@ -1324,6 +1324,16 @@ font-size: 28px;
 
 
   }
+  
+.video {
+
+ 
+  filter: brightness(65%);
+
+
+
+}
+
 
   .parceirosdescription {
    width: 280px;
