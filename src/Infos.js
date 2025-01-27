@@ -32,7 +32,8 @@ export default function Infos() {
 
 
                 </div>
-                <button className="wpp">FALE CONOSCO <FaWhatsapp className="iconwpp" /></button>
+                <a target="_blank" href="https://api.whatsapp.com/message/N5E5IZXQWDNKD1?autoload=1&app_absent=0">
+                <button className="wpp">FALE CONOSCO <FaWhatsapp className="iconwpp" /></button></a>
             </div>
 
 

@@ -27,8 +27,9 @@ export default function Construction() {
           
           
           <h2 className="subtitleap">Em parceria com a <strong className="s">Metrocasa</strong>, iniciamos mais esse empreendimento em <strong className="s">São Paulo.</strong> Com <strong className="s">[número de unidades]</strong> unidades habitacionais e uma área total de <strong className="s">[metragem]</strong> metros quadrados. Com previsão de entrega para <strong className="s">[data de término]</strong>, este projeto é mais uma demonstração do compromisso da H2L com a inovação e a qualidade em cada etapa da construção.</h2>
-               <a target="_blank" href="https://www.metrocasa.com.br/imoveis/property?id=3247"></a>
+               <a target="_blank" href="https://www.metrocasa.com.br/imoveis/property?id=3247">
                <button className="projeto">VISUALIZAR PROJETO</button>
+               </a>
           </div>
           </div>
           
