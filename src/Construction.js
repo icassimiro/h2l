@@ -25,7 +25,7 @@ export default function Construction() {
           <h2 className="titleap">Vila Prudente II</h2>
         
           
-          <h2 className="subtitleap">Em parceria com a Metrocasa, iniciamos mais esse empreendimento em São Paulo. Com [número de unidades] unidades habitacionais e uma área total de [metragem] metros quadrados. Com previsão de entrega para [data de término], este projeto é mais uma demonstração do compromisso da H2L com a inovação e a qualidade em cada etapa da construção.</h2>
+          <h2 className="subtitleap">Em parceria com a <strong className="s">Metrocasa</strong>, iniciamos mais esse empreendimento em <strong className="s">São Paulo.</strong> Com <strong className="s">[número de unidades]</strong> unidades habitacionais e uma área total de <strong className="s">[metragem]</strong> metros quadrados. Com previsão de entrega para <strong className="s">[data de término]</strong>, este projeto é mais uma demonstração do compromisso da H2L com a inovação e a qualidade em cada etapa da construção.</h2>
                <button className="projeto">VISUALIZAR PROJETO</button>
           </div>
           </div>
@@ -41,7 +41,7 @@ export default function Construction() {
       
           <h2 className="titleap">Alto do Ipiranga</h2>
         
-          <h2 className="subtitleap">Localizado em São Paulo, o empreendimento conta com 235 unidades habitacionais e uma área total de [metragem] metros quadrados. Com entrega prevista para [data de término], este projeto reflete o compromisso da H2L com a excelência e a inovação, oferecendo soluções residenciais que atendem às necessidades e expectativas dos seus futuros moradores.</h2>
+          <h2 className="subtitleap">Localizado em <strong className="s">São Paulo</strong>, o empreendimento conta com <strong className="s">235 unidades habitacionais</strong> e uma área total de <strong className="s">[metragem]</strong> metros quadrados. Com entrega prevista para <strong className="s">[data de término]</strong>, este projeto reflete o compromisso da H2L com a excelência e a inovação, oferecendo soluções residenciais que atendem às necessidades e expectativas dos seus futuros moradores.</h2>
           <button className="projeto">VISUALIZAR PROJETO</button>
           </div>
           </div>
