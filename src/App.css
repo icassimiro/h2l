@@ -1702,3 +1702,10 @@ font-size: 28px;
 
 
 }
+@media screen and (max-width: 345px){
+  
+  .awssld{
+    height: 103vh;
+
+  }
+}
