@@ -1430,7 +1430,7 @@ font-size: 28px;
 
   .divhab1 {
     padding-bottom: 1rem;
-    padding-top:6.5rem;
+    padding-top:4rem;
     
   }
 
@@ -1624,9 +1624,7 @@ font-size: 28px;
   .subboards {
     line-height: 3vh;
   }
-  .divhab1{
-    padding-top: 6rem;
-  }
+  
 
 
 
@@ -1700,9 +1698,7 @@ font-size: 28px;
   .awssld {
     height: 123vh;
   }
-  .divhab1{
-    padding-top:5.5rem;
-  }
+
 
 
 }
