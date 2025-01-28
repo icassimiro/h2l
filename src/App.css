@@ -319,9 +319,54 @@ button:hover {
   gap: 3rem;
   text-align: center;
 
-  padding-top: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom:3rem;
 
 }
+.divwhite{
+  background-color: white;
+  width: 320px;
+  height: 20vh;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parceiro1{
+  width: 200px;
+  height: 8vh;
+}
+.parceiro2{
+  width: 120px;
+  height: 9vh;
+}
+.parceiro3{
+  width: 180px;
+  height: 11vh;
+}
+.logoparceiros{
+  display: flex;
+flex-direction: column;
+ 
+  background-color:#303841;
+
+  justify-content: center;
+  gap:2rem;
+  align-items: center;
+  padding-top:2rem;
+  height: 100%;
+ 
+
+  
+}
+.parceirosflex{
+  display: flex;
+  justify-content: center;
+  gap:3rem;
+
+
+}
+
 
 
 .parceirostext {
@@ -801,6 +846,17 @@ nav {
 
 
 }
+.hrrp {
+  width: 45px;
+
+  background-color: #C1A663;
+
+  height: 0.2vh;
+  border: none;
+
+
+
+}
 
 .hrrinfo {
   width: 45px;
@@ -856,6 +912,20 @@ nav {
   letter-spacing: 0.5px;
   font-family: Verdana;
   padding-left: 0.5rem;
+
+
+}
+
+.textboardp {
+  color: #C1A663;
+
+  font-size: 38.5px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: Verdana;
+  padding-left: 0.5rem;
+
 
 
 }
@@ -1162,6 +1232,10 @@ nav.awssld__bullets {
     padding-bottom: 1rem;
 
   }
+  .parceirosflex{
+    flex-direction: column;
+
+  }
 
   .awssld {
     height: 135vh;
@@ -1305,6 +1379,10 @@ nav.awssld__bullets {
   }
 
   .parceirostext {
+    font-size: 30px;
+
+  }
+  .textboardp {
     font-size: 30px;
 
   }
@@ -1550,6 +1628,10 @@ nav.awssld__bullets {
     font-size: 23px;
     width: 300px;
   }
+  .textboardp {
+    font-size: 23px;
+
+  }
 
   .strong {
 
@@ -1739,6 +1821,10 @@ nav.awssld__bullets {
 
     font-size: 20px;
     width: 270px;
+
+  }
+  .textboardp {
+    font-size: 20px;
 
   }
 

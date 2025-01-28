@@ -12,6 +12,7 @@ import Header from './Header';
 
 import Infos from './Infos';
 import Logo from './Logo';
+import Parceiros from './Parceiros';
 import Scroll from './Scroll';
 
 
@@ -37,6 +38,7 @@ function App() {
       <Construction />
      
       <Logo />
+      <Parceiros/>
 
       <Infos />
 
