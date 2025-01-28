@@ -563,10 +563,10 @@ a {
   height: 100%;
 }
 
-.divcert {}
+
 
 .cert {
-  width: 260px;
+  width: 320px;
   animation: fadeInAnimationicon 2s ease-in-out infinite alternate;
 
 }
@@ -1489,6 +1489,9 @@ nav.awssld__bullets {
 
 
   }
+  .divcert {
+    padding-top:4rem;
+  }
 
 
   .parceirosdescription {
@@ -1544,7 +1547,7 @@ nav.awssld__bullets {
   }
 
   .cert {
-    width: 200px;
+    width: 230px;
 
 
   }
