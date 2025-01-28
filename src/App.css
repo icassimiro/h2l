@@ -1521,6 +1521,18 @@ nav.awssld__bullets {
     padding-top: 2rem;
 
   }
+  .parceiro1{
+    width: 150px;
+    height: 5vh;
+  }
+  .parceiro2{
+    width: 100px;
+    height: 6vh;
+  }
+  .parceiro3{
+    width: 150px;
+    height: 7vh;
+  }
 
   .descripcolumn {}
 
@@ -1760,6 +1772,15 @@ nav.awssld__bullets {
   }
 
   .parceirosdescription {
+    width: 260px;
+    height: 17vh;
+
+
+
+
+
+  }
+  .divwhite {
     width: 260px;
     height: 17vh;
 
