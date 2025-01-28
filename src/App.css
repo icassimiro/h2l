@@ -331,6 +331,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: leaves 4s ease-in-out infinite alternate;
 }
 .parceiro1{
   width: 200px;
